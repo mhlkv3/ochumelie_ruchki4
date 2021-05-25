@@ -1,0 +1,42 @@
+@import "reset.css";
+@import "fonts.css";
+
+
+body {
+  background-color: black;
+}
+
+.menu_text {
+  display: block;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main_page_hr {
+  display: block;
+  border: 1px solid #FFFFFF;
+  width: 280px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.main_page_text {
+  display: inline-block;
+  font-family: 'Pitcrew';
+  font-size: 140px;
+  line-height: 96%;
+  color: #FFFFFF;
+  margin-top: 605px;
+  margin-left: 40px;
+}

@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'Akzidenz-Grotesk Pro';
+	src: url('../fonts/akzidenzgroteskpro-boldex.woff2') format('woff2'),
+	     url('../fonts/akzidenzgroteskpro-boldex.woff') format('woff');
+	font-weight: 700;
+	font-stretch: expanded;
+}
+
+
+@font-face {
+	font-family: 'Akzidenz-Grotesk Pro';
+	src: url('../fonts/akzidenzgroteskpro-lightex.woff2') format('woff2'),
+       url('../fonts/akzidenzgroteskpro-lightex.woff') format('woff');
+	font-weight: 200;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Akzidenz-Grotesk Pro';
+	src: url('../fonts/akzidenzgroteskpro-xbd.woff2') format('woff2'),
+	     url('../fonts/akzidenzgroteskpro-xbd.woff') format('woff');
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: 'Akzidenz-Grotesk Pro';
+	src: url('../fonts/akzidenzgroteskpro-lightcn.woff2') format('woff2'),
+	     url('../fonts/akzidenzgroteskpro-lightcn.woff') format('woff');
+	font-weight: 400;
+	font-stretch: condensed;
+
+}
+
+@font-face {
+	font-family: 'Akzidenz-Grotesk Pro';
+	src: url('../fonts/akzidenzgroteskpro-lightex.woff2') format('woff2'),
+	     url('../fonts/akzidenzgroteskpro-lightex.woff') format('woff');
+	font-weight: 400;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Akzidenz-Grotesk Pro';
+	src: url('../fonts/akzidenzgroteskpro-light.woff2') format('woff2'),
+	     url('../fonts/akzidenzgroteskpro-light.woff') format('woff');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Pitcrew';
+	src: url('../fonts/Pitcrew-Regular-v1.otf') format('otf'),
+}
