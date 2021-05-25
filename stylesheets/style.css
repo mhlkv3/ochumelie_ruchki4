@@ -134,3 +134,84 @@ a {
 .content {
   z-index: 2;
 }
+
+.img7 {
+  position: absolute;
+  display: block;
+  left: 387px;
+  top: 0px;
+  z-index: -1;
+}
+
+.img8 {
+  position: absolute;
+  display: block;
+  left: 1125px;
+  top: 345px;
+  z-index: -1;
+}
+
+.menu_botton{
+  display: block;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #FFFFFF;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  z-index: 2;
+}
+
+.header_text {
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  /* display: inline; */
+  font-family: 'Pitcrew';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 96%;
+  text-align: right;
+  color: #FFFFFF;
+  margin-top: 40px;
+  margin-right: 40px;
+
+}
+
+.hr_about_page{
+  display: block;
+  border: 1px solid #FFFFFF;
+  width: 95px;
+  position: relative;
+  margin-top: -10px;
+  margin-bottom: -20px;
+  margin-left: 40px;
+}
+
+.about_page_text{
+  display: inline-block;
+  font-family: 'Pitcrew';
+  font-size: 140px;
+  line-height: 96%;
+  color: #FFFFFF;
+  margin-top: 250px;
+  margin-left: 40px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about_text {
+  display: block;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-left: 40px;
+  margin-top: 90px;
+}
