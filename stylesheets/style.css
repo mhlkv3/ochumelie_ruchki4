@@ -14,21 +14,13 @@ body {
   line-height: 40px;
   color: #FFFFFF;
   margin-left: 40px;
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 a {
   text-decoration: none;
   color: inherit;
-}
-
-.main_page_hr {
-  display: block;
-  border: 1px solid #FFFFFF;
-  width: 280px;
-  position: relative;
-  margin-top: 20px;
-  margin-left: 40px;
 }
 
 .main_page_text {
@@ -37,6 +29,108 @@ a {
   font-size: 140px;
   line-height: 96%;
   color: #FFFFFF;
-  margin-top: 605px;
+  margin-top: 180px;
   margin-left: 40px;
+  font-weight: 400;
+	font-style: normal;
+}
+
+.main_page_hr {
+  display: block;
+  border: 1px solid #FFFFFF;
+  width: 280px;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: -20px;
+  margin-left: 40px;
+}
+
+.border_text {
+  position: absolute;
+  /* display: inline; */
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  color: #FFFFFF;
+  transform: rotate(90deg);
+  top: 215px;
+  right: -140px;
+}
+
+.text_right{
+  display: block;
+  margin-top: -45px;
+  margin-right: 40px;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: right;
+  color: #FFFFFF;
+}
+
+.img1 {
+  position: absolute;
+  display: block;
+  left: 387px;
+  top: 0px;
+  z-index: -1;
+}
+
+.img2 {
+  position: absolute;
+  display: block;
+  left: 1055px;
+  top: 0px;
+  z-index: -1;
+}
+
+.img3 {
+  position: absolute;
+  display: block;
+  left: 0px;
+  top: 280px;
+  z-index: -1;
+}
+
+.img4 {
+  position: absolute;
+  display: block;
+  left: 1190px;
+  top: 520px;
+  z-index: -1;
+}
+
+.img5 {
+  position: absolute;
+  display: block;
+  left: 962px;
+  top: 40px;
+  z-index: -1;
+}
+
+.background_rec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 900px;
+  opacity: 0.8;
+  background-color: black;
+  z-index: -1;
+}
+
+.img6 {
+  position: absolute;
+  display: block;
+  left: 522px;
+  top: 11px;
+  z-index: -1;
+}
+
+.content {
+  z-index: 2;
 }

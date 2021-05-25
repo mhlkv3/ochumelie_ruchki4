@@ -47,6 +47,7 @@
 }
 
 @font-face {
-	font-family: 'Pitcrew';
-	src: url('../fonts/Pitcrew-Regular-v1.otf') format('otf'),
-}
+    font-family: 'Pitcrew';
+    src: url('../fonts/Pitcrew.woff2') format('woff2');
+    font-style: normal;
+  }
