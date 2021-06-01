@@ -92,7 +92,7 @@ a {
   display: block;
   height: 100vh;
   right: 0vw;
-  top: -25vw;
+  top: -14vw;
   z-index: -1;
   width: 22.431vw;
 }
@@ -101,22 +101,24 @@ a {
   position: absolute;
   display: block;
   left: 0vw;
-  bottom: 20vw;
+  top: 20vw;
   z-index: -1;
 }
 
 .img4 {
   position: absolute;
   display: block;
+  width: 14vw;
   left: 82.639vw;
-  bottom: 0vw;
+  top: 33vw;
   z-index: -1;
 }
 
 .img5 {
   position: absolute;
   display: block;
-  left: 64vw;
+  width: 20vw;
+  left: 70vw;
   top: 2vw;
   z-index: -1;
 }
@@ -135,8 +137,9 @@ a {
 .img6 {
   position: absolute;
   display: block;
-  left: 522px;
-  top: 11px;
+  width: 60vw;
+  left: 38vw;
+  top: 0.764vw;
   z-index: -1;
 }
 
