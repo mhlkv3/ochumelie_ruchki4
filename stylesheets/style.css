@@ -115,7 +115,7 @@ a {
 }
 
 .img5 {
-  position: absolute;
+  position: fixed;
   display: block;
   width: 20vw;
   left: 70vw;
