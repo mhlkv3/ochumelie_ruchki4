@@ -90,6 +90,7 @@ a {
 .img2 {
   position: absolute;
   display: block;
+  height: 100vh;
   right: 0vw;
   top: -25vw;
   z-index: -1;
@@ -99,7 +100,6 @@ a {
 .img3 {
   position: absolute;
   display: block;
-  height: 100vh;
   left: 0vw;
   bottom: 20vw;
   z-index: -1;
