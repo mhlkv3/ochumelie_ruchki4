@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "fonts.css";
+@import "responsive.css";
 
 
 body {
@@ -115,7 +116,7 @@ a {
 }
 
 .img5 {
-  position: fixed;
+  position: absolute;
   display: block;
   width: 20vw;
   left: 70vw;
