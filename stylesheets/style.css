@@ -215,3 +215,38 @@ a {
   margin-left: 40px;
   margin-top: 90px;
 }
+
+.gal_img1{
+  position: absolute;
+  display: block;
+  left: 387px;
+  top: 0px;
+  z-index: -1;
+}
+
+.gal_img2 {
+  position: absolute;
+  width: 336px;
+  height: 422px;
+  left: 949px;
+  top: 275px;
+  z-index: -1;
+}
+
+.gal_img3 {
+  display: block;
+  margin-top: 135px;
+}
+
+.gal_page_text{
+    display: inline-block;
+    font-family: 'Pitcrew';
+    font-size: 140px;
+    line-height: 96%;
+    color: #FFFFFF;
+    margin-bottom: -30px;
+    margin-left: 40px;
+    font-weight: 400;
+  	font-style: normal;
+
+}
