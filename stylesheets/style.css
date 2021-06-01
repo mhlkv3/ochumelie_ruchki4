@@ -7,11 +7,12 @@ body {
   background-color: black;
 }
 
-/* .main_page{
+.main_page{
+  position: absolute;
   margin: 0 auto;
-  height: 100vh;
+  width: 100vw;
   overflow: hidden;
-} */
+}
 
 .menu_text {
   display: block;
@@ -93,7 +94,7 @@ a {
   display: block;
   height: 100vh;
   right: 0vw;
-  top: -14vw;
+  top: -15vw;
   z-index: -1;
   width: 22.431vw;
 }
