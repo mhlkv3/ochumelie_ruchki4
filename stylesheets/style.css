@@ -252,16 +252,19 @@ a {
   font-style: normal;
 }
 
-.fullpage {
+.main {
+  margin: 0 auto;
   height:100vh;
   overflow: hidden;
 }
 
 .gal_img4{
   display: block;
-  margin-top: -10px;
+  height: 100vh;
+  margin-top: 0px;
   margin-left: 300px;
 }
+
 .gal_text_name {
 
 
