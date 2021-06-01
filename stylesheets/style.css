@@ -6,6 +6,12 @@ body {
   background-color: black;
 }
 
+/* .main_page{
+  margin: 0 auto;
+  height: 100vh;
+  overflow: hidden;
+} */
+
 .menu_text {
   display: block;
   font-family: 'Akzidenz-Grotesk Pro';
@@ -38,7 +44,6 @@ a {
 .main_page_hr {
   display: block;
   border: 0.069vw solid #FFFFFF;
-  color: white;
   width: 17vw;
   position: relative;
   margin-top: 0.347vw;
@@ -85,8 +90,8 @@ a {
 .img2 {
   position: absolute;
   display: block;
-  left: 68vw;
-  top: 0vw;
+  right: 0vw;
+  top: -25vw;
   z-index: -1;
 }
 
@@ -102,15 +107,15 @@ a {
   position: absolute;
   display: block;
   left: 82.639vw;
-  top: 36.111vw;
+  bottom: 0vw;
   z-index: -1;
 }
 
 .img5 {
   position: absolute;
   display: block;
-  left: 66.806vw;
-  top: 2.778vw;
+  left: 64vw;
+  top: 2vw;
   z-index: -1;
 }
 
