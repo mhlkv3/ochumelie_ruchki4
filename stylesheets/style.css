@@ -38,6 +38,7 @@ a {
 .main_page_hr {
   display: block;
   border: 0.069vw solid #FFFFFF;
+  color: white;
   width: 17vw;
   position: relative;
   margin-top: 0.347vw;
@@ -75,7 +76,8 @@ a {
 .img1 {
   position: absolute;
   display: block;
-  left: 26.875vw;
+  height: 100vh;
+  left: 30vw;
   top: 0vw;
   z-index: -1;
 }
@@ -83,7 +85,7 @@ a {
 .img2 {
   position: absolute;
   display: block;
-  left: 73.264vw;
+  left: 68vw;
   top: 0vw;
   z-index: -1;
 }
@@ -92,7 +94,7 @@ a {
   position: absolute;
   display: block;
   left: 0vw;
-  top: 19.444vw;
+  bottom: 20vw;
   z-index: -1;
 }
 
