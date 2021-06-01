@@ -7,29 +7,53 @@
     <meta name="viewport" content="width=device-width">
   </head>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src='javascripts/jquery.fullpage.js'></script>
+
   <body>
 
-    <!-- <div class="gelery_page_images">
-      <div><img class="gal_img1"src="images/gal_img1.svg" alt=""></div>
-      <div><img class="gal_img2"src="images/gal_img2.svg" alt=""></div>
-      <div><img class="gal_img3"src="images/gal_img3.svg" alt=""></div>
-    </div> -->
+    <div id="fullpage">
 
-    <div class="background_rec"></div>
+      <section>
+        <div class="gelery_page_images">
+          <div><img class="gal_img1"src="images/gal_img_1.jpg" alt=""></div>
+          <div><img class="gal_img2"src="images/gal_img_2.jpg" alt=""></div>
+        </div>
 
-    <div class="menu_botton">
-      <p><a href="index.html">МЕНЮ</a></p>
+        <div class="background_rec"></div>
+        <div><img class="gal_img3"src="images/gal_img_3.png" alt=""></div>
+
+        <div class="menu_botton">
+          <p><a href="index.html">МЕНЮ</a></p>
+        </div>
+        <hr class="hr_about_page">
+
+        <h1 class="gal_page_text">Галерея</h1>
+        <p class="text_right">Клуб рукоделия <br> для байкеров</p>
+        <p class="header_text">ОЧУМЕЛЫЕ РУЧКИ</p>
+      </section>
+
+      <section>
+
+        <div class="menu_botton">
+          <p><a href="index.html">МЕНЮ</a></p>
+        </div>
+        <hr class="hr_about_page">
+
+          <div><img class="gal_img4"src="images/gal_img_4.jpg" alt=""></div>
+          <!-- <p class="gal_text_name">МИХАИЛ СКОРОСТНОЙ</p>
+          <p class="gal_text_name">ЧЕРЕПА</p>
+          <p class="numbers">2020</p>
+          <p class="gal_text_about">Работа была выполнена <br> при помощи техники вышивания.<br>
+            Композиция состоит из черепов <br> различных цветов, которые располежены <br> друг на друге.</p> -->
+      </section>
+
+
     </div>
 
-      <h1 class="gal_page_text">Галерея</h1>
-
-
-
-      <p class="text_right">Клуб рукоделия <br> для байкеров</p>
-      <p class="header_text">ОЧУМЕЛЫЕ РУЧКИ</p>
-
-
-
+    <script type="text/javascript">
+      $('#fullpage').fullpage();
+    </script>
 
   </body>
 </html>

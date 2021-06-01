@@ -226,6 +226,7 @@ a {
 
 .gal_img2 {
   position: absolute;
+  display: block;
   width: 336px;
   height: 422px;
   left: 949px;
@@ -234,19 +235,42 @@ a {
 }
 
 .gal_img3 {
+  position: absolute;
   display: block;
-  margin-top: 135px;
+  top: 100px;
 }
 
 .gal_page_text{
-    display: inline-block;
-    font-family: 'Pitcrew';
-    font-size: 140px;
-    line-height: 96%;
-    color: #FFFFFF;
-    margin-bottom: -30px;
-    margin-left: 40px;
-    font-weight: 400;
-  	font-style: normal;
+  display: inline-block;
+  font-family: 'Pitcrew';
+  font-size: 140px;
+  line-height: 96%;
+  color: #FFFFFF;
+  margin-top: 680px;
+  margin-left: 40px;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.fullpage {
+  height:100vh;
+  overflow: hidden;
+}
+
+.gal_img4{
+  display: block;
+  margin-top: -10px;
+  margin-left: 300px;
+}
+.gal_text_name {
+
+
+  font-family: "Akzidenz-Grotesk Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 41px;
+
+
+  color: #FFFFFF;
 }
