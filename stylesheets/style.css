@@ -140,8 +140,8 @@ a {
 .img6 {
   position: absolute;
   display: block;
-  width: 50vw;
-  left: 38vw;
+  height: 100vh;
+  left: 30vw;
   top: 0vw;
   z-index: -1;
 }
