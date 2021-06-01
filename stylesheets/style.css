@@ -99,6 +99,7 @@ a {
 .img3 {
   position: absolute;
   display: block;
+  height: 100vh;
   left: 0vw;
   bottom: 20vw;
   z-index: -1;
