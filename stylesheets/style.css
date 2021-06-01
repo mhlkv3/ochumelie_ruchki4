@@ -191,8 +191,8 @@ a {
   line-height: 96%;
   text-align: right;
   color: #FFFFFF;
-  margin-top: 40px;
-  margin-right: 40px;
+  margin-right: 2.7vw;
+  margin-top: 2.2vw;
 
 }
 
@@ -212,7 +212,7 @@ a {
     font-size: 8vw;
     line-height: 94%;
     color: #FFFFFF;
-    margin-top: 5vw;
+    margin-top: 17vw;
     margin-left: 2.7vw;
     font-weight: 400;
   	font-style: normal;
@@ -224,12 +224,12 @@ a {
   font-family: 'Akzidenz-Grotesk Pro';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 1.2vw;
+  line-height: 1.6vw;
   text-align: left;
   color: #FFFFFF;
   margin-left: 40px;
-  margin-top: 90px;
+  margin-top: 5vw;
 }
 
 .gal_img1{
