@@ -10,12 +10,12 @@ body {
   display: block;
   font-family: 'Akzidenz-Grotesk Pro';
   font-weight: 400;
-  font-size: 35px;
-  line-height: 40px;
+  font-size: 2.431vw;
+  line-height: 2.778vw;
   color: #FFFFFF;
-  margin-left: 40px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-left: 2.778vw;
+  margin-top: 2.778vw;
+  margin-bottom: 1.389vw;
 }
 
 a {
@@ -26,23 +26,23 @@ a {
 .main_page_text {
   display: inline-block;
   font-family: 'Pitcrew';
-  font-size: 140px;
+  font-size: 9.722vw;
   line-height: 96%;
   color: #FFFFFF;
-  margin-top: 180px;
-  margin-left: 40px;
+  margin-top: 12.500vw;
+  margin-left: 2.778vw;
   font-weight: 400;
 	font-style: normal;
 }
 
 .main_page_hr {
   display: block;
-  border: 1px solid #FFFFFF;
-  width: 280px;
+  border: 0.069vw solid #FFFFFF;
+  width: 19.444vw;
   position: relative;
-  margin-top: 5px;
-  margin-bottom: -20px;
-  margin-left: 40px;
+  margin-top: 0.347vw;
+  margin-bottom: -1.389vw;
+  margin-left: 2.778vw;
 }
 
 .border_text {
@@ -51,23 +51,23 @@ a {
   font-family: 'Akzidenz-Grotesk Pro';
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 19px;
+  font-size: 1.042vw;
+  line-height: 1.319vw;
   color: #FFFFFF;
   transform: rotate(90deg);
-  top: 215px;
-  right: -140px;
+  top: 14.931vw;
+  right: -9.722vw;
 }
 
 .text_right{
   display: block;
-  margin-top: -45px;
-  margin-right: 40px;
+  margin-top: -3.125vw;
+  margin-right: 2.778vw;
   font-family: 'Akzidenz-Grotesk Pro';
   font-style: normal;
   font-weight: 400;
-  font-size: 15px;
-  line-height: 19px;
+  font-size: 1.042vw;
+  line-height: 1.319vw;
   text-align: right;
   color: #FFFFFF;
 }
@@ -75,40 +75,40 @@ a {
 .img1 {
   position: absolute;
   display: block;
-  left: 387px;
-  top: 0px;
+  left: 26.875vw;
+  top: 0vw;
   z-index: -1;
 }
 
 .img2 {
   position: absolute;
   display: block;
-  left: 1055px;
-  top: 0px;
+  left: 73.264vw;
+  top: 0vw;
   z-index: -1;
 }
 
 .img3 {
   position: absolute;
   display: block;
-  left: 0px;
-  top: 280px;
+  left: 0vw;
+  top: 19.444vw;
   z-index: -1;
 }
 
 .img4 {
   position: absolute;
   display: block;
-  left: 1190px;
-  top: 520px;
+  left: 82.639vw;
+  top: 36.111vw;
   z-index: -1;
 }
 
 .img5 {
   position: absolute;
   display: block;
-  left: 962px;
-  top: 40px;
+  left: 66.806vw;
+  top: 2.778vw;
   z-index: -1;
 }
 
@@ -116,8 +116,8 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1440px;
-  height: 900px;
+  width: 100vw;
+  height: 62.500vw;
   opacity: 0.8;
   background-color: black;
   z-index: -1;
@@ -266,14 +266,10 @@ a {
 }
 
 .gal_text_name {
-
-
   font-family: "Akzidenz-Grotesk Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 35px;
   line-height: 41px;
-
-
   color: #FFFFFF;
 }
