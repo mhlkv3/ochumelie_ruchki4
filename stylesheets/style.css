@@ -35,7 +35,7 @@ a {
   font-size: 8vw;
   line-height: 94%;
   color: #FFFFFF;
-  margin-top: 8vw;
+  margin-top: 9vw;
   margin-left: 2.7vw;
   font-weight: 400;
 	font-style: normal;
@@ -137,9 +137,9 @@ a {
 .img6 {
   position: absolute;
   display: block;
-  width: 60vw;
+  width: 50vw;
   left: 38vw;
-  top: 0.764vw;
+  top: 0vw;
   z-index: -1;
 }
 
