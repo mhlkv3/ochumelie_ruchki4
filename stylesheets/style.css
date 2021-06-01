@@ -110,7 +110,7 @@ a {
   position: absolute;
   display: block;
   width: 14vw;
-  left: 82.639vw;
+  right: 0vw;
   top: 33vw;
   z-index: -1;
 }
