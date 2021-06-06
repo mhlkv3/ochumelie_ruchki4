@@ -137,6 +137,17 @@ a {
   z-index: -1;
 }
 
+.background_rec_2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+  background-color: black;
+  z-index: -1;
+}
+
 .img6 {
   position: absolute;
   display: block;
@@ -394,4 +405,228 @@ a {
   color: #FFFFFF;
   margin-top: 1vw;
   margin-left: 15vw;
+}
+
+.schedule_page_text {
+  display: inline-block;
+  font-family: 'Pitcrew';
+  font-size: 9.722vw;
+  line-height: 96%;
+  color: #FFFFFF;
+  margin-top: 16vw;
+  margin-left: 2.778vw;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sch_img1 {
+  position: absolute;
+  display: block;
+  height: 100vh;
+  left: 32vw;
+  top: 0vw;
+  z-index: -1;
+}
+
+.sch_img2 {
+  position: absolute;
+  width: 15vw;
+  left: 0vw;
+  top: 8vw;
+  z-index: -1;
+}
+
+.sch_img3 {
+  position: absolute;
+  width: 25vw;
+  right: 0vw;
+  top: 13.056vw;
+  z-index: -1;
+}
+
+
+.back_1 {
+  position: absolute;
+  display: block;
+  width: 100vw;
+  left: 0vw;
+  top: 0vw;
+  z-index: -2;
+}
+
+.schedule_page_text_2 {
+  display: inline-block;
+  font-family: 'Pitcrew';
+  font-size: 9.722vw;
+  line-height: 96%;
+  color: #FFFFFF;
+  margin-top: 4.5vw;
+  margin-left: 2.778vw;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.schedule{
+  margin-top: 9vw;
+}
+
+.day_sch_text{
+  display: inline-block;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #FFFFFF;
+  margin-left: 2.7vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  z-index: 2;
+}
+
+.schedule_page_hr {
+  display: block;
+  border: 0.069vw solid #FFFFFF;
+  width: 47.917vw;
+  position: relative;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  margin-left: 2.7vw;
+}
+
+.numbers_sch_1{
+  display: inline-block;
+  font-family: 'Fira Code';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #FFFFFF;
+  margin-left: 19.4vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  z-index: 2;
+  text-align: right;
+}
+
+.numbers_sch_2{
+  display: inline-block;
+  font-family: 'Fira Code';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #FFFFFF;
+  margin-left: 28vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  z-index: 2;
+  text-align: right;
+}
+
+.numbers_sch_3{
+  display: inline-block;
+  font-family: 'Fira Code';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #FFFFFF;
+  margin-left: 20.3vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  z-index: 2;
+  text-align: right;
+}
+
+.schedule_page_text_3 {
+  display: inline-block;
+  font-family: 'Pitcrew';
+  font-size: 9.722vw;
+  line-height: 96%;
+  color: #FFFFFF;
+  margin-top: 14vw;
+  margin-left: 2.778vw;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.numbers_sch_4{
+  display: inline-block;
+  font-family: 'Fira Code';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #FFFFFF;
+  margin-left: 19.4vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  z-index: 2;
+  text-align: right;
+}
+
+.numbers_sch_5{
+  display: inline-block;
+  font-family: 'Fira Code';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #FFFFFF;
+  margin-left: 28vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  z-index: 2;
+  text-align: right;
+}
+
+.numbers_sch_6{
+  display: inline-block;
+  font-family: 'Fira Code';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #FFFFFF;
+  margin-left: 25vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  z-index: 2;
+  text-align: right;
+}
+
+.numbers_sch_7{
+  display: inline-block;
+  font-family: 'Fira Code';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #FFFFFF;
+  margin-left: 25.3vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  z-index: 2;
+  text-align: right;
+}
+
+.numbers_sch_8{
+  display: inline-block;
+  font-family: 'Fira Code';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #FFFFFF;
+  margin-left: 26.2vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  z-index: 2;
+  text-align: right;
+}
+
+.numbers_sch_9{
+  display: inline-block;
+  font-family: 'Fira Code';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #FFFFFF;
+  margin-left: 26vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  z-index: 2;
+  text-align: right;
 }

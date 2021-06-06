@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/onepage-scroll.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="javascripts/jquery.onepage-scroll.js"></script>
+
+  <body>
+
+    <div class="main">
+
+      <section>
+        <div class="galery_page_images">
+          <div><img class="sch_img1"src="images/sch_img_1.jpg" alt=""></div>
+          <div><img class="sch_img2"src="images/sch_img_2.jpg" alt=""></div>
+          <div><img class="sch_img3"src="images/sch_img_3.jpg" alt=""></div>
+        </div>
+
+        <div class="background_rec_2"></div>
+
+        <div class="menu_botton">
+          <p><a href="index.html">МЕНЮ</a></p>
+        </div>
+        <hr class="hr_about_page">
+
+        <h1 class="schedule_page_text">РАСПИСАНИЕ <br> МАСТЕР- <br> КЛАССОВ</h1>
+        <p class="text_right">Клуб рукоделия <br> для байкеров</p>
+        <p class="header_text">ОЧУМЕЛЫЕ РУЧКИ</p>
+      </section>
+
+
+      <section>
+        <div><img class="back_1"src="images/back_1.jpg" alt=""></div>
+
+        <div class="menu_botton">
+          <p><a href="index.html">МЕНЮ</a></p>
+        </div>
+        <hr class="hr_about_page">
+
+        <div class="schedule">
+          <p class="day_sch_text">ПОНЕДЕЛЬНИК</p>
+          <p class="numbers_sch_1">18:00-20:00</p>
+          <hr class="schedule_page_hr">
+
+          <p class="day_sch_text">СРЕДА</p>
+          <p class="numbers_sch_2">18:00-20:00</p>
+          <hr class="schedule_page_hr">
+
+          <p class="day_sch_text">ВОСКРЕСЕНЬЕ</p>
+          <p class="numbers_sch_3">18:00-20:00</p>
+        </div>
+
+        <h1 class="schedule_page_text_2">УКРАШЕНИЕ <br> БАЙКОВ</h1>
+        <p class="text_right">Клуб рукоделия <br> для байкеров</p>
+        <p class="header_text">ОЧУМЕЛЫЕ РУЧКИ</p>
+
+      </section>
+
+      <section>
+        <div><img class="back_1"src="images/back_2.jpg" alt=""></div>
+
+        <div class="menu_botton">
+          <p><a href="index.html">МЕНЮ</a></p>
+        </div>
+        <hr class="hr_about_page">
+
+        <div class="schedule">
+          <p class="day_sch_text">ПОНЕДЕЛЬНИК</p>
+          <p class="numbers_sch_4">18:00-20:00</p>
+          <hr class="schedule_page_hr">
+
+          <p class="day_sch_text">СРЕДА</p>
+          <p class="numbers_sch_5">16:00-18:00</p>
+          <hr class="schedule_page_hr">
+
+          <p class="day_sch_text">ПЯТНИЦА</p>
+          <p class="numbers_sch_6">18:00-20:00</p>
+        </div>
+
+        <h1 class="schedule_page_text_3">ВЫШИВАНИЕ</h1>
+        <p class="text_right">Клуб рукоделия <br> для байкеров</p>
+        <p class="header_text">ОЧУМЕЛЫЕ РУЧКИ</p>
+
+      </section>
+
+      <section>
+        <div><img class="back_1"src="images/back_3.jpg" alt=""></div>
+
+        <div class="menu_botton">
+          <p><a href="index.html">МЕНЮ</a></p>
+        </div>
+        <hr class="hr_about_page">
+
+        <div class="schedule">
+          <p class="day_sch_text">ВТОРНИК</p>
+          <p class="numbers_sch_7">18:00-20:00</p>
+          <hr class="schedule_page_hr">
+
+          <p class="day_sch_text">ЧЕТВЕРГ</p>
+          <p class="numbers_sch_8">18:00-20:00</p>
+          <hr class="schedule_page_hr">
+
+          <p class="day_sch_text">СУББОТА</p>
+          <p class="numbers_sch_9">13:00-15:00</p>
+        </div>
+
+        <h1 class="schedule_page_text_3">ВЯЗАНИЕ</h1>
+        <p class="text_right">Клуб рукоделия <br> для байкеров</p>
+        <p class="header_text">ОЧУМЕЛЫЕ РУЧКИ</p>
+
+      </section>
+
+
+    </div>
+
+    <script type="text/javascript">
+    $(".main").onepage_scroll({
+      sectionContainer: "section",
+      easing: "ease",
+
+      animationTime: 1000,
+      pagination: true,
+      updateURL: false,
+
+     beforeMove: function(index) {},
+     afterMove: function(index) {},
+     loop: false,
+     keyboard: true,
+     responsiveFallback: false,
+     direction: "vertical"
+   });
+    </script>
+
+  </body>
+</html>
