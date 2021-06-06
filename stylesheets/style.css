@@ -271,6 +271,19 @@ a {
   font-style: normal;
 }
 
+.gal_about_text {
+  display: block;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  margin-left: 2.7vw;
+  margin-top: 4.167vw;
+  margin-bottom: 1.389vw;
+  z-index: 2;
+}
+
 .main {
   margin: 0 auto;
   height: 100vh;
@@ -284,12 +297,33 @@ a {
   left: 20.833vw;
 }
 
-.gal_text_name {
+.gal_img5{
+  position: absolute;
+  height: 100vh;
+  top: 0vw;
+  left: 47.917vw;
+}
+
+.gal_img6{
+  position: absolute;
+  height: 100vh;
+  top: 0vw;
+  left: 18.750vw;
+}
+
+.gal_img7{
+  position: absolute;
+  height: 100vh;
+  top: 0vw;
+  left: 47.917vw;
+}
+
+.gal_text_name_1 {
   font-family: "Akzidenz-Grotesk Pro";
   font-style: normal;
   font-weight: normal;
   font-size: 2vw;
-  line-height: 2vw;
+  line-height: 2.3vw;
   color: #FFFFFF;
   text-align: left;
   display: inline-block;
@@ -297,7 +331,20 @@ a {
   margin-left: 58vw;
 }
 
-.numbers {
+.gal_text_name_2 {
+  font-family: "Akzidenz-Grotesk Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  text-align: left;
+  display: inline-block;
+  margin-top: 22vw;
+  margin-left: 15vw;
+}
+
+.numbers_1 {
   font-family: "Fira Code";
   font-style: normal;
   font-weight: normal;
@@ -310,14 +357,41 @@ a {
   margin-left: 58vw;
 }
 
-.gal_about_text {
+.numbers_2 {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #FFFFFF;
+  text-align: left;
+  display: block;
+  margin-top: 0vw;
+  margin-left: 15vw;
+}
+
+.gal_text_about_1{
   display: block;
   font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
   font-weight: 400;
-  font-size: 2vw;
-  line-height: 2.5vw;
+  font-size: 1.042vw;
+  line-height: 1.319vw;
+  text-align: left;
   color: #FFFFFF;
-  margin-left: 2.7vw;
-  margin-top: 4.167vw;
-  z-index: 2;
+  margin-top: 1vw;
+  margin-left: 58vw;
+}
+
+.gal_text_about_2{
+  display: block;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.042vw;
+  line-height: 1.319vw;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 1vw;
+  margin-left: 15vw;
 }
