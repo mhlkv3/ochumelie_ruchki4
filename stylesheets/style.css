@@ -236,7 +236,8 @@ a {
 .gal_img1{
   position: absolute;
   display: block;
-  left: 26.875vw;
+  height: 100vh;
+  left: 30vw;
   top: 0vw;
   z-index: -1;
 }
@@ -244,16 +245,17 @@ a {
 .gal_img2 {
   position: absolute;
   display: block;
-  width: 23.333vw;
-  height: 29.306vw;
-  left: 65.903vw;
-  top: 1.875vw;
+  width: 20vw;
+  left: 62vw;
+  top: 12vw;
   z-index: -1;
 }
 
 .gal_img3 {
   position: absolute;
   display: block;
+  left: 20vw;
+  width: 50vw;
   top: 6.944vw;
 }
 
@@ -263,7 +265,7 @@ a {
   font-size: 9.722vw;
   line-height: 96%;
   color: #FFFFFF;
-  margin-top: 47.222vw;
+  margin-top: 22vw;
   margin-left: 2.778vw;
   font-weight: 400;
   font-style: normal;
@@ -272,21 +274,40 @@ a {
 .main {
   margin: 0 auto;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .gal_img4{
-  display: block;
+  position: absolute;
   height: 100vh;
-  margin-top: 0vw;
-  margin-left: 20.833vw;
+  top: 0vw;
+  left: 20.833vw;
 }
 
 .gal_text_name {
   font-family: "Akzidenz-Grotesk Pro";
   font-style: normal;
   font-weight: normal;
-  font-size: 2.431vw;
-  line-height: 2.847vw;
+  font-size: 2vw;
+  line-height: 2vw;
   color: #FFFFFF;
+  text-align: left;
+  display: inline-block;
+  margin-top: 22vw;
+  margin-left: 58vw;
+
+
+
+}
+
+.gal_about_text {
+  display: block;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.5vw;
+  color: #FFFFFF;
+  margin-left: 2.7vw;
+  margin-top: 4.167vw;
+  z-index: 2;
 }
