@@ -50,4 +50,10 @@
     font-family: 'Pitcrew';
     src: url('../fonts/Pitcrew.woff2') format('woff2');
     font-style: normal;
-  }
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('../fonts/Firacoderegular.woff2') format('woff2');
+    font-style: normal;
+}
