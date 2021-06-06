@@ -153,16 +153,16 @@ a {
 .img7 {
   position: absolute;
   display: block;
-  left: 387px;
-  top: 0px;
+  left: 26.875vw;
+  top: 0vw;
   z-index: -1;
 }
 
 .img8 {
   position: absolute;
   display: block;
-  left: 1125px;
-  top: 345px;
+  left: 78.125vw;
+  top: 23.958vw;
   z-index: -1;
 }
 
