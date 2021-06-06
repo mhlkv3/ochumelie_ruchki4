@@ -295,9 +295,19 @@ a {
   display: inline-block;
   margin-top: 22vw;
   margin-left: 58vw;
+}
 
-
-
+.numbers {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vw;
+  line-height: 2vw;
+  color: #FFFFFF;
+  text-align: left;
+  display: inline-block;
+  margin-top: 0vw;
+  margin-left: 58vw;
 }
 
 .gal_about_text {
