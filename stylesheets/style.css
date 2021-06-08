@@ -195,6 +195,18 @@ a {
   color: #FF00B8;
 }
 
+.ad_menu_3:hover {
+  color: #FF00B8;
+}
+
+.ad_menu_4:hover {
+  color: #FF00B8;
+}
+
+.ad_menu_5:hover {
+  color: #FF00B8;
+}
+
 .menu_botton:hover {
   color: #FF00B8;
 }
@@ -248,6 +260,36 @@ a {
 
 }
 
+.ad_menu_4 {
+  position: absolute;
+  left: 27.917vw;
+  top: 23vw;
+
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.736vw;
+  line-height: 2.083vw;
+  /* or 120% */
+  color: #FFFFFF;
+
+}
+
+.ad_menu_5 {
+  position: absolute;
+  left: 27.917vw;
+  top: 25vw;
+
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.736vw;
+  line-height: 2.083vw;
+  /* or 120% */
+  color: #FFFFFF;
+
+}
+
 .hidden {
   display: none;
 }
@@ -270,7 +312,7 @@ a {
   position: absolute;
   display: block;
   left: 78.125vw;
-  top: 23.958vw;
+  top: 14vw;
   z-index: -1;
 }
 
