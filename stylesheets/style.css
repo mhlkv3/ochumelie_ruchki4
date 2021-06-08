@@ -29,6 +29,9 @@ html {
 }
 
 
+
+
+
 a {
   text-decoration: none;
   color: inherit;
@@ -48,7 +51,8 @@ a {
 }
 
 .main_page_hr {
-  display: block;
+  display: flex;
+  justify-content: space-between;
   position: relative;
   border: 0.069vw solid #FFFFFF;
   width: 17vw;
@@ -166,10 +170,12 @@ a {
 }
 
 .menu_text {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+  /* display: block; */
   font-family: 'Akzidenz-Grotesk Pro';
   font-weight: 400;
-  font-size: 2.431vw;
+  font-size: 2.2vw;
   line-height: 2.3vw;
   color: #FFFFFF;
   margin-left: 2.7vw;
