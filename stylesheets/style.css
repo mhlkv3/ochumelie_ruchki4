@@ -183,6 +183,18 @@ a {
   margin-bottom: 1vw;
 }
 
+.menu_text:hover {
+  color: #FF0000;
+}
+
+.ad_menu_1:hover {
+  color: #FF0000;
+}
+
+.ad_menu_2:hover {
+  color: #FF0000;
+}
+
 .ad_menu_1 {
   position: absolute;
   left: 27.917vw;
@@ -199,6 +211,21 @@ a {
 }
 
 .ad_menu_2 {
+  position: absolute;
+  left: 27.917vw;
+  top: 4vw;
+
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.736vw;
+  line-height: 2.083vw;
+  /* or 120% */
+  color: #FFFFFF;
+
+}
+
+.ad_menu_3 {
   position: absolute;
   left: 27.917vw;
   top: 21vw;
