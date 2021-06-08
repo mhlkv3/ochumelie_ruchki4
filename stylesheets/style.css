@@ -184,15 +184,23 @@ a {
 }
 
 .menu_text:hover {
-  color: #FF0000;
+  color: #7D7D7D;
 }
 
 .ad_menu_1:hover {
-  color: #FF0000;
+  color: #7D7D7D;
 }
 
 .ad_menu_2:hover {
-  color: #FF0000;
+  color: #7D7D7D;
+}
+
+.menu_botton:hover {
+  color: #7D7D7D;
+}
+
+.header_text:hover {
+  color: #7D7D7D;
 }
 
 .ad_menu_1 {
