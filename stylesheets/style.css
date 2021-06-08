@@ -707,30 +707,9 @@ a {
   text-align: right;
 }
 
-.sch_1_txt {
-  display: block;
-  font-family: 'Akzidenz-Grotesk Pro';
-  font-weight: 400;
-  font-size: 2vw;
-  line-height: 2.3vw;
-  color: #FFFFFF;
-  margin-left: 2.7vw;
-  margin-top: 11vw;
-  z-index: 2;
-}
 
-.sch_2_txt {
-  display: inline-block;
-  font-family: 'Akzidenz-Grotesk Pro';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.2vw;
-  line-height: 1.4vw;
-  text-align: left;
-  color: #FFFFFF;
-  margin-left: 61vw;
-  margin-top: 7vw;
-}
+
+
 
 .sch_img11 {
   position: absolute;
@@ -754,10 +733,44 @@ a {
   color: #FFFFFF;
 }
 
+
+
+.all_pages_menu {
+  z-index: 3;
+}
+
+.sch_content{
+  z-index: 3;
+}
+
+.sch_1_txt {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 11vw;
+}
+
+.sch_2_txt {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 1.4vw;
+  text-align: left;
+  color: #FFFFFF;
+  left: 80vw;
+  top: 11vw;
+}
+
 .numbers_sch_1_1 {
-  display: block;
-  left: 78.681vw;
-  margin-top: 9vw;
+  position: absolute;
+  left: 80vw;
+  top: 26vw;
 
   font-family: 'Fira Code';
   font-style: normal;
@@ -767,12 +780,4 @@ a {
 
 
   color: #FFFFFF;
-}
-
-.all_pages_menu {
-  z-index: 3;
-}
-
-.sch_content{
-  z-index: 3;
 }
