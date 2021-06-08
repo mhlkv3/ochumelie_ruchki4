@@ -183,10 +183,25 @@ a {
   margin-bottom: 1vw;
 }
 
-.ad_menu {
+.ad_menu_1 {
   position: absolute;
   left: 27.917vw;
   top: 2.083vw;
+
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.736vw;
+  line-height: 2.083vw;
+  /* or 120% */
+  color: #FFFFFF;
+
+}
+
+.ad_menu_2 {
+  position: absolute;
+  left: 27.917vw;
+  top: 21vw;
 
   font-family: 'Akzidenz-Grotesk Pro';
   font-style: normal;
