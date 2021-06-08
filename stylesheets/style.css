@@ -368,7 +368,7 @@ a {
 }
 
 .about_text {
-  display: block;
+  position: absolute;
   font-family: 'Akzidenz-Grotesk Pro';
   font-style: normal;
   font-weight: 400;
@@ -376,8 +376,8 @@ a {
   line-height: 1.6vw;
   text-align: left;
   color: #FFFFFF;
-  margin-left: 2.778vw;
-  margin-top: 5vw;
+  left: 2.778vw;
+  top: 10vw;
 }
 
 .gal_img1{
