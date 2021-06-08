@@ -2,30 +2,32 @@
 @import "fonts.css";
 @import "responsive.css";
 
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 
 body {
   background-color: black;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100%;
 }
 
-.main_page{
+html {
   position: absolute;
-  margin: 0 auto;
   height: 100vh;
-  width: 100vw;
   overflow: hidden;
 }
 
-.menu_text {
+.container{
   display: block;
-  font-family: 'Akzidenz-Grotesk Pro';
-  font-weight: 400;
-  font-size: 2vw;
-  line-height: 2vw;
-  color: #FFFFFF;
-  margin-left: 2.7vw;
-  margin-top: 2.2vw;
-  margin-bottom: 1.389vw;
+  margin: 0 auto;
+  height: 100vh;
 }
+
 
 a {
   text-decoration: none;
@@ -33,12 +35,13 @@ a {
 }
 
 .main_page_text {
-  display: inline-block;
+  position: absolute;
+  /* display: inline-block; */
   font-family: 'Pitcrew';
-  font-size: 8vw;
-  line-height: 94%;
+  font-size: 9.722vw;
+  line-height: 96%;
   color: #FFFFFF;
-  margin-top: 9vw;
+  bottom: 1vw;
   margin-left: 2.7vw;
   font-weight: 400;
 	font-style: normal;
@@ -46,11 +49,13 @@ a {
 
 .main_page_hr {
   display: block;
+  position: relative;
   border: 0.069vw solid #FFFFFF;
   width: 17vw;
-  position: relative;
-  margin-top: 0.347vw;
+  margin-top: 1vw;;
   margin-bottom: -1vw;
+  /* margin-top: 0.347vw;
+  margin-bottom: -1vw; */
   margin-left: 2.7vw;
 }
 
@@ -69,8 +74,9 @@ a {
 }
 
 .text_right{
-  display: block;
-  margin-top: -3.125vw;
+  position: absolute;
+  /* display: inline-block; */
+  bottom: 1vw;
   margin-right: 2.778vw;
   font-family: 'Akzidenz-Grotesk Pro';
   font-style: normal;
@@ -83,21 +89,22 @@ a {
 
 .img1 {
   position: absolute;
-  display: block;
-  height: 100vh;
-  left: 30vw;
+  width: 46.389vw;
+  height: 62.500vw;
+  left: 27vw;
   top: 0vw;
   z-index: -1;
+  overflow: hidden;
 }
 
 .img2 {
   position: absolute;
-  display: block;
-  height: 100vh;
-  right: 0vw;
-  top: -15vw;
+  height: 62.500vw;
+  width: 46.389vw;
+  right: -10vw;
+  margin-top: 0vw;
   z-index: -1;
-  width: 22.431vw;
+
 }
 
 .img3 {
@@ -120,7 +127,7 @@ a {
 .img5 {
   position: absolute;
   display: block;
-  width: 20vw;
+  width: 22vw;
   left: 68vw;
   top: 2vw;
   z-index: -1;
@@ -151,11 +158,23 @@ a {
 .img6 {
   position: absolute;
   display: block;
-  width: 40vw;
+  width: 55vw;
   height: 100vh;
   left: 40vw;
   top: -5vw;
   z-index: -1;
+}
+
+.menu_text {
+  display: block;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2.431vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  margin-left: 2.7vw;
+  margin-top: 2.5vw;
+  margin-bottom: 1vw;
 }
 
 .content {
