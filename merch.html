@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/onepage-scroll.css">
+    <meta name="viewport" content="width=device-width">
+  </head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="javascripts/jquery.onepage-scroll.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="javascripts/script.js" charset="utf-8"></script>
+
+  <body>
+
+    <div class="main">
+
+      <section class="merch_1 hidden">
+        <div><img class="merch_img_1"src="images/merch_1.png" alt=""></div>
+        <p class="price_1">ФУТБОЛКА</p>
+        <p class="price_2">$35</p>
+      </section>
+
+      <section class="merch_1 hidden">
+        <div><img class="merch_img_2"src="images/merch_2.png" alt=""></div>
+        <p class="price_1">МАСКА</p>
+        <p class="price_2">$5</p>
+      </section>
+
+      <section class="merch_2 hidden">
+        <div><img class="merch_img_2"src="images/merch_3.png" alt=""></div>
+        <p class="price_1">ЧЕХОЛ</p>
+        <p class="price_2">$10</p>
+      </section>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="all_pages_menu">
+      <div><img class="merch_img"src="images/merch_img.jpg" alt=""></div>
+
+      <div class="background_rec_2"></div>
+      <div class="menu_botton">
+        <p><a href="index.html">МЕНЮ</a></p>
+      </div>
+      <hr class="hr_about_page">
+
+      <p class="text_right">Клуб рукоделия <br> для байкеров</p>
+      <p class="header_text"><a href="index.html">ОЧУМЕЛЫЕ РУЧКИ</a></p>
+      <h1 class="schedule_page_text">мерч</h1>
+
+      <div class="sch_2_txt">
+       <p>Самый качественный <br> и творческий мерч, <br> который вы можете <br> приобрести на нашем <br> сайте и в клубе.</p>
+      </div>
+
+      <p class="floors_txt11">ОДЕЖДА</p>
+      <p class="floors_txt22">КАНЦЕЛЯРИЯ</p>
+      <p class="floors_txt33">СУВЕНИРЫ</p>
+      <p class="floors_txt44">КНИГИ</p>
+
+      <hr class="space_page_hr_1">
+      <hr class="space_page_hr_2">
+      <hr class="space_page_hr_3">
+
+      <!-- <div class="merch_4 hidden">
+        <div><img class="merch_img_2"src="images/merch_4.png" alt=""></div>
+        <p class="price_1">ЧЕХОЛ</p>
+        <p class="price_2">$10</p>
+      </div> -->
+
+
+    </div>
+
+
+
+
+
+
+    <script type="text/javascript">
+    $(".main").onepage_scroll({
+      sectionContainer: "section",
+      easing: "ease",
+
+      animationTime: 1000,
+      pagination: true,
+      updateURL: false,
+
+     beforeMove: function(index) {},
+     afterMove: function(index) {},
+     loop: false,
+     keyboard: true,
+     responsiveFallback: false,
+     direction: "vertical"
+   });
+    </script>
+
+  </body>
+</html>

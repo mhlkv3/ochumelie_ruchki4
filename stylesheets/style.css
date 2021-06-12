@@ -290,6 +290,35 @@ a {
 
 }
 
+.ad_menu_6 {
+  position: absolute;
+  left: 45vw;
+  top: 23vw;
+
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.736vw;
+  line-height: 2.083vw;
+  color: #FFFFFF;
+
+}
+
+.ad_menu_7 {
+  position: absolute;
+  left: 45vw;
+  top: 25vw;
+
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.736vw;
+  line-height: 2.083vw;
+  /* or 120% */
+  color: #FFFFFF;
+
+}
+
 .hidden {
   display: none;
 }
@@ -874,6 +903,14 @@ a {
   color: #FF00B8;
 }
 
+.ad_menu_6:hover {
+  color: #FF00B8;
+}
+
+.ad_menu_7:hover {
+  color: #FF00B8;
+}
+
 .floors_txt_2 {
   position: absolute;
   font-family: 'Akzidenz-Grotesk Pro';
@@ -934,6 +971,30 @@ a {
   margin-bottom: 2vw;
 }
 
+.floors_txt_6 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 26vw;
+  margin-bottom: 2vw;
+}
+
+.floors_txt_7 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 29vw;
+  margin-bottom: 2vw;
+}
+
 .floors_txt_5:hover {
   color: #FF00B8;
 }
@@ -974,12 +1035,32 @@ a {
   border: 1px solid #FFFFFF;
 }
 
+.space_page_hr_5{
+  position: absolute;
+  width: 17vw;
+  height: 0vw;
+  left: 2.778vw;
+  top: 25vw;
+  border: 1px solid #FFFFFF;
+}
+
+.space_page_hr_6{
+  position: absolute;
+  width: 17vw;
+  height: 0vw;
+  left: 2.778vw;
+  top: 28vw;
+  border: 1px solid #FFFFFF;
+}
+
 .space_img1{
   position: absolute;
   left: 27.500vw;
   top: 0px;
   z-index: -3;
 }
+
+
 
 .space_img2{
   position: absolute;
@@ -1029,4 +1110,296 @@ a {
 
 .reception_images{
   z-index: -2;
+}
+
+.nav_img1{
+  position: absolute;
+  left: 31vw;
+  top: 0px;
+  z-index: -3;
+}
+
+.floors_txt1 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 11vw;
+  margin-bottom: 2vw;
+}
+
+.floors_txt1:hover {
+  color: #FF00B8;
+}
+
+.floors_txt2 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 14vw;
+  margin-bottom: 2vw;
+}
+
+.floors_txt2:hover {
+  color: #FF00B8;
+}
+
+.floors_txt3 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 17vw;
+  margin-bottom: 2vw;
+}
+
+.floors_txt3:hover {
+  color: #FF00B8;
+}
+
+.floors_txt4 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 20vw;
+  margin-bottom: 2vw;
+}
+
+.floors_txt4:hover {
+  color: #FF00B8;
+}
+
+.floors_txt5 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 23vw;
+  margin-bottom: 2vw;
+}
+
+.floors_txt5:hover {
+  color: #FF00B8;
+}
+
+.floors_txt6 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 26vw;
+  margin-bottom: 2vw;
+}
+
+.floors_txt6:hover {
+  color: #FF00B8;
+}
+
+.floors_txt7 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 29vw;
+  margin-bottom: 2vw;
+}
+
+.floors_txt7:hover {
+  color: #FF00B8;
+}
+
+.nav_img_1{
+  position: absolute;
+  width: 25vw;
+  left: 37%;
+  right: 31.02%;
+  top: 20%;
+  bottom: 41.71%;
+}
+
+.nav_img_2{
+  position: absolute;
+  width: 25vw;
+  left: 37%;
+  right: 31.02%;
+  top: 20%;
+  bottom: 41.71%;
+}
+
+.nav_img_3{
+  position: absolute;
+  width: 25vw;
+  left: 37%;
+  right: 31.02%;
+  top: 20%;
+  bottom: 41.71%;
+}
+
+.nav_img_4{
+  position: absolute;
+  width: 25vw;
+  left: 37%;
+  right: 31.02%;
+  top: 20%;
+  bottom: 41.71%;
+}
+
+.nav_img_5{
+  position: absolute;
+  width: 25vw;
+  left: 37%;
+  right: 31.02%;
+  top: 20%;
+  bottom: 41.71%;
+}
+
+.nav_img_6{
+  position: absolute;
+  width: 25vw;
+  left: 37%;
+  right: 31.02%;
+  top: 20%;
+  bottom: 41.71%;
+}
+
+.nav_img_7{
+  position: absolute;
+  width: 25vw;
+  left: 37%;
+  right: 31.02%;
+  top: 20%;
+  bottom: 41.71%;
+}
+
+.merch_img{
+  position: absolute;
+  height: 100vh;
+  left: 30vw;
+  top: 0vw;
+}
+
+.floors_txt11 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 11vw;
+  margin-bottom: 2vw;
+}
+.floors_txt11:hover {
+  color: #FF00B8;
+}
+
+.floors_txt22 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 14vw;
+  margin-bottom: 2vw;
+}
+
+.floors_txt22:hover {
+  color: #FF00B8;
+}
+
+.floors_txt33 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 17vw;
+  margin-bottom: 2vw;
+}
+
+.floors_txt33:hover {
+  color: #FF00B8;
+}
+
+.floors_txt44 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-weight: 400;
+  font-size: 2vw;
+  line-height: 2.3vw;
+  color: #FFFFFF;
+  left: 2.778vw;
+  top: 20vw;
+  margin-bottom: 2vw;
+}
+
+.floors_txt44:hover {
+  color: #FF00B8;
+}
+
+.merch_img_1{
+  position: absolute;
+  left: 30vw;
+  top: 5vw;
+  width: 38vw;
+}
+
+.merch_img_2{
+  position: absolute;
+  left: 26vw;
+  top: 8vw;
+  width: 50vw;
+}
+
+.price_1{
+  position: absolute;
+  left: 80vw;
+  top: 11vw;
+
+  font-family: "Akzidenz-Grotesk Pro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+
+.price_2{
+  position: absolute;
+  left: 80vw;
+  top: 14vw;
+
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 60px;
+  color: #FFFFFF;
 }
