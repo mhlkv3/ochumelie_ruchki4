@@ -477,7 +477,7 @@ a {
   position: absolute;
   height: 100vh;
   top: 0vw;
-  left: 47.917vw;
+  left: 45vw;
 }
 
 .gal_img6{
@@ -491,7 +491,7 @@ a {
   position: absolute;
   height: 100vh;
   top: 0vw;
-  left: 47.917vw;
+  left: 45vw;
 }
 
 .gal_text_name_1 {
@@ -1081,6 +1081,7 @@ a {
   width: 40vw;
   left: 36vw;
   top: -3vw;
+  z-index: 2;
 }
 
 .reception_img2{
@@ -1104,9 +1105,9 @@ a {
   top: 20vw;
 }
 
-.reception_img1{
+/* .reception_img1{
   z-index: -3;
-}
+} */
 
 .reception_images{
   z-index: -2;
@@ -1242,55 +1243,55 @@ a {
 
 .nav_img_2{
   position: absolute;
-  width: 25vw;
+  width: 17vw;
   left: 37%;
   right: 31.02%;
-  top: 20%;
+  top: 17%;
   bottom: 41.71%;
 }
 
 .nav_img_3{
   position: absolute;
-  width: 25vw;
+  width: 17vw;
   left: 37%;
   right: 31.02%;
-  top: 20%;
+  top: 17%;
   bottom: 41.71%;
 }
 
 .nav_img_4{
   position: absolute;
-  width: 25vw;
+  width: 17vw;
   left: 37%;
   right: 31.02%;
-  top: 20%;
+  top: 17%;
   bottom: 41.71%;
 }
 
 .nav_img_5{
   position: absolute;
-  width: 25vw;
+  width: 20vw;
   left: 37%;
   right: 31.02%;
-  top: 20%;
+  top: 25%;
   bottom: 41.71%;
 }
 
 .nav_img_6{
   position: absolute;
-  width: 25vw;
+  width: 17vw;
   left: 37%;
   right: 31.02%;
-  top: 20%;
+  top: 25%;
   bottom: 41.71%;
 }
 
 .nav_img_7{
   position: absolute;
-  width: 25vw;
+  width: 17vw;
   left: 37%;
   right: 31.02%;
-  top: 20%;
+  top: 25%;
   bottom: 41.71%;
 }
 
@@ -1375,6 +1376,13 @@ a {
   position: absolute;
   left: 26vw;
   top: 8vw;
+  width: 50vw;
+}
+
+.merch_img_5{
+  position: absolute;
+  left: 26vw;
+  top: 3vw;
   width: 50vw;
 }
 

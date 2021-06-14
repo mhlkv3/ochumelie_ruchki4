@@ -133,6 +133,8 @@ $(document).ready(function(){
 
 	$(".floors_txt33").click(function(){
 		$(".merch_img").toggleClass("hidden");
+		$(".sch_2_txt").toggleClass("hidden");
+		$(".merch_3.hidden").toggleClass("hidden");
 		$(".knitting_images").toggleClass("hidden");
 		$(".floors_txt11, .floors_txt22, .floors_txt44").css("color","#575757");
 		$(".space_page_hr_1, .space_page_hr_2").css("border-color","#575757");
