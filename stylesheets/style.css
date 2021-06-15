@@ -185,26 +185,32 @@ a {
 
 .menu_text:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .ad_menu_1:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .ad_menu_2:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .ad_menu_3:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .ad_menu_4:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .ad_menu_5:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .menu_botton:hover {
@@ -213,6 +219,7 @@ a {
 
 .header_text:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .ad_menu_1 {
@@ -901,14 +908,17 @@ a {
 
 .floors_txt_1:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .ad_menu_6:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .ad_menu_7:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt_2 {
@@ -925,6 +935,7 @@ a {
 
 .floors_txt_2:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt_3 {
@@ -941,6 +952,7 @@ a {
 
 .floors_txt_3:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt_4 {
@@ -957,6 +969,7 @@ a {
 
 .floors_txt_4:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt_5 {
@@ -997,6 +1010,7 @@ a {
 
 .floors_txt_5:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .space_page_hr_1{
@@ -1080,7 +1094,7 @@ a {
   position: absolute;
   width: 40vw;
   left: 36vw;
-  top: -3vw;
+  top: -1vw;
   z-index: 2;
 }
 
@@ -1134,6 +1148,7 @@ a {
 
 .floors_txt1:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt2 {
@@ -1150,6 +1165,7 @@ a {
 
 .floors_txt2:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt3 {
@@ -1166,6 +1182,7 @@ a {
 
 .floors_txt3:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt4 {
@@ -1182,6 +1199,7 @@ a {
 
 .floors_txt4:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt5 {
@@ -1198,6 +1216,7 @@ a {
 
 .floors_txt5:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt6 {
@@ -1214,6 +1233,7 @@ a {
 
 .floors_txt6:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt7 {
@@ -1230,6 +1250,7 @@ a {
 
 .floors_txt7:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .nav_img_1{
@@ -1315,6 +1336,7 @@ a {
 }
 .floors_txt11:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt22 {
@@ -1331,6 +1353,7 @@ a {
 
 .floors_txt22:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt33 {
@@ -1347,6 +1370,7 @@ a {
 
 .floors_txt33:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .floors_txt44 {
@@ -1363,6 +1387,7 @@ a {
 
 .floors_txt44:hover {
   color: #FF00B8;
+  cursor: click;
 }
 
 .merch_img_1{
@@ -1410,4 +1435,12 @@ a {
   font-size: 35px;
   line-height: 60px;
   color: #FFFFFF;
+}
+
+.grey_color{
+  color: #575757;
+}
+
+.grey_color_1{
+  border-color: #575757;
 }
