@@ -1,12 +1,171 @@
 @media only screen and (min-width: 1441px) {
   /* Desktop */
 
-  .img5 {
-    width: 23vw;
-    left: 78vw;
-    top: 2vw;
-    z-index: -1;
+  /* /////ГЛАВНАЯ СТРАНИЦА////// */
+
+  body {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
   }
+
+  .main_page_hr{
+    border: 0.060vw solid #FFFFFF;
+    width: 23.393vw;
+  }
+
+  .menu_text{
+    font-size: 2.976vw;
+    line-height: 2.857vw;
+  }
+
+  .main_page_text{
+    font-size: 10.119vw;
+  }
+
+  .img1 {
+    height: 100vh;
+    left: 28vw;
+  }
+
+  .img5{
+    left: 66.369vw;
+    top: 2.798vw;
+  }
+
+  .img4{
+    top: 40vw;
+  }
+
+  .img2 {
+    height: 62.5vw;
+    right: 0vw;
+    top: 0vw;
+    z-index: -3;
+  }
+
+  .ad_menu_1, .ad_menu_2, .ad_menu_3, .ad_menu_4, .ad_menu_5, {
+    font-size: 2vw;
+    line-height: 2vw;
+    left: 35vw;
+  }
+
+  .ad_menu_1{
+    top: 2.5vw;
+  }
+
+  .ad_menu_2{
+    top: 4.5vw;
+  }
+
+  .ad_menu_3{
+    top: 24.5vw;
+  }
+
+  .ad_menu_4{
+    top: 26.5vw;
+  }
+
+  .ad_menu_5{
+    top: 28.5vw;
+  }
+
+  .ad_menu_6, .ad_menu_7 {
+    left: 45vw;
+    font-size: 2vw;
+    line-height: 2vw;
+  }
+
+  .ad_menu_6{
+    top: 26.5vw;
+  }
+
+  .ad_menu_7{
+    top: 28.5vw;
+  }
+
+
+
+  /* /////РАСПИСАНИЕ МАСТЕР-КЛАССОВ////// */
+
+  .main_page_text{
+    font-size: 10.119vw;
+  }
+
+  .schedule_page_text_2 {
+    font-size: 10.119vw;
+  }
+
+  .sch_img1{
+    height: 100vh;
+    left: 28vw;
+  }
+
+  .sch_img2{
+    left: 0vw;
+    top: 10vw;
+    width: 20vw;
+  }
+
+  .sch_img3{
+    right: 0vw;
+    top: 14vw;
+    width: 30vw;
+  }
+
+  .schedule{
+    position: absolute;
+    top: 5vw;
+  }
+
+  /* /////МЕНЮ////// */
+
+  .menu_botton{
+    font-size: 2.381vw;
+  }
+
+  .hr_about_page{
+    border: 0.060vw solid #FFFFFF;
+    width: 7.5vw;
+    top: 4.5vw;
+  }
+
+  .text_right{
+    font-size: 1.071vw;
+  }
+
+  .header_text{
+    font-size: 2.381vw;
+  }
+
+    /* /////ГАЛЕРЕЯ////// */
+
+  .gal_img2{
+    width: 25vw;
+  }
+
+  .gal_img3{
+    top: 20vw;
+    left: 15vw;
+  }
+
+  .gal_txt_about_1{
+    margin-left: 7vw;
+  }
+
+  .gal_txt_about_2{
+    margin-left: -9vw;
+    margin-top: 10vw;
+  }
+
+  .gal_img5{
+    position: absolute;
+    left: 33vw;
+  }
+
+
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {

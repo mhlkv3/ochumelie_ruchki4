@@ -1094,7 +1094,7 @@ a {
   position: absolute;
   width: 40vw;
   left: 36vw;
-  top: -1vw;
+  top: -3vw;
   z-index: 2;
 }
 
@@ -1443,4 +1443,8 @@ a {
 
 .grey_color_1{
   border-color: #575757;
+}
+
+.cafe_images{
+  z-index: 3;
 }
