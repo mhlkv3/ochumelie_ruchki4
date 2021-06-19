@@ -144,45 +144,45 @@ $(document).ready(function(){
 	});
 });
 
-// $(document).ready(function(){
-// 	$(".floors_txt11").click(function(){
-// 		$(".merch_img").toggleClass("hidden");
-// 		$(".sch_2_txt").toggleClass("hidden");
-// 		$(".merch_1").toggleClass("hidden");
-// 		$(".floors_txt22, .floors_txt33, .floors_txt44").css("color","#575757");
-// 		$(".space_page_hr_2, .space_page_hr_3").css("border-color","#575757");
-// 	});
-//
-// 	$(".floors_txt22").click(function(){
-// 		$(".merch_img").toggleClass("hidden");
-// 		$(".sch_2_txt").toggleClass("hidden");
-// 		$(".merch_2.hidden").toggleClass("hidden");
-// 		$(".floors_txt11, .floors_txt33, .floors_txt44").css("color","#575757");
-// 		$(".space_page_hr_1, .space_page_hr_3").css("border-color","#575757");
-// 	});
-//
-// 	$(".floors_txt33").click(function(){
-// 		$(".merch_img").toggleClass("hidden");
-// 		$(".sch_2_txt").toggleClass("hidden");
-// 		$(".merch_3.hidden").toggleClass("hidden");
-// 		$(".knitting_images").toggleClass("hidden");
-// 		$(".floors_txt11, .floors_txt22, .floors_txt44").css("color","#575757");
-// 		$(".space_page_hr_1, .space_page_hr_2").css("border-color","#575757");
-// 	});
-//
-// 	$(".floors_txt44").click(function(){
-// 		$(".merch_img").toggleClass("hidden");
-// 		$(".sch_2_txt").toggleClass("hidden");
-// 		$(".merch_4.hidden").toggleClass("hidden");
-// 		$(".knitting_images").toggleClass("hidden");
-// 		$(".floors_txt11, .floors_txt22, .floors_txt33").css("color","#575757");
-// 		$(".space_page_hr_1, .space_page_hr_2, .space_page_hr_3").css("border-color","#575757");
-// 	});
-// });
+$(document).ready(function(){
+	$(".floors_txt11").click(function(){
+		$(".merch_img").toggleClass("hidden");
+		$(".sch_2_txt").toggleClass("hidden");
+		$(".merch_1").toggleClass("hidden");
+		$(".floors_txt22, .floors_txt33, .floors_txt44").css("color","#575757");
+		$(".space_page_hr_2, .space_page_hr_3").css("border-color","#575757");
+	});
+
+	$(".floors_txt22").click(function(){
+		$(".merch_img").toggleClass("hidden");
+		$(".sch_2_txt").toggleClass("hidden");
+		$(".merch_2.hidden").toggleClass("hidden");
+		$(".floors_txt11, .floors_txt33, .floors_txt44").css("color","#575757");
+		$(".space_page_hr_1, .space_page_hr_3").css("border-color","#575757");
+	});
+
+	$(".floors_txt33").click(function(){
+		$(".merch_img").toggleClass("hidden");
+		$(".sch_2_txt").toggleClass("hidden");
+		$(".merch_3.hidden").toggleClass("hidden");
+		$(".knitting_images").toggleClass("hidden");
+		$(".floors_txt11, .floors_txt22, .floors_txt44").css("color","#575757");
+		$(".space_page_hr_1, .space_page_hr_2").css("border-color","#575757");
+	});
+
+	$(".floors_txt44").click(function(){
+		$(".merch_img").toggleClass("hidden");
+		$(".sch_2_txt").toggleClass("hidden");
+		$(".merch_4.hidden").toggleClass("hidden");
+		$(".knitting_images").toggleClass("hidden");
+		$(".floors_txt11, .floors_txt22, .floors_txt33").css("color","#575757");
+		$(".space_page_hr_1, .space_page_hr_2, .space_page_hr_3").css("border-color","#575757");
+	});
+});
 
 
-// $(document).ready(function(){
-// 	$(".floors_txt22").click(function(){
-// 		$(".ad_menu_1.hidden,.ad_menu_2.hidden").toggleClass("hidden");
-// 	});
-// 	});
+$(document).ready(function(){
+	$(".floors_txt22").click(function(){
+		$(".ad_menu_1.hidden,.ad_menu_2.hidden").toggleClass("hidden");
+	});
+	});

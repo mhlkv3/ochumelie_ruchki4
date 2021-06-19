@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1441px) {
   /* Desktop */
 
-  /* /////ГЛАВНАЯ СТРАНИЦА////// */
+ /* /////ГЛАВНАЯ СТРАНИЦА////// */
 
   body {
     position: absolute;
@@ -48,27 +48,32 @@
   .ad_menu_1, .ad_menu_2, .ad_menu_3, .ad_menu_4, .ad_menu_5, {
     font-size: 2vw;
     line-height: 2vw;
-    left: 35vw;
+    /* left: 37vw; */
   }
 
   .ad_menu_1{
     top: 2.5vw;
+    left: 30vw;
   }
 
   .ad_menu_2{
     top: 4.5vw;
+    left: 30vw;
   }
 
   .ad_menu_3{
     top: 24.5vw;
+    left: 30vw;
   }
 
   .ad_menu_4{
     top: 26.5vw;
+    left: 30vw;
   }
 
   .ad_menu_5{
     top: 28.5vw;
+    left: 30vw;
   }
 
   .ad_menu_6, .ad_menu_7 {
@@ -79,10 +84,12 @@
 
   .ad_menu_6{
     top: 26.5vw;
+    left: 30vw;
   }
 
   .ad_menu_7{
     top: 28.5vw;
+    left: 30vw;
   }
 
 
@@ -174,11 +181,86 @@
     top: 22vw;
   }
 
+  .nav_img1{
+    left: 27vw;
+    height: 100vh;
+  }
+
+  .space_img1{
+    height: 100vh;
+  }
+
+  .space_img2{
+    top: 35vw;
+  }
+
+  .space_img3{
+    top: 25vw;
+  }
+
+  .reception_img1{
+    left: 28vw;
+    top: 0vw;
+    width: 47vw;
+  }
+
+  .reception_img2{
+    left: 28vw;
+    bottom: 0vw;
+    width: 47vw;
+  }
+
+  .reception_img3{
+    width: 24vw;
+    right: 0vw;
+    top: 8vw;
+  }
+
+  .reception_img4{
+    width: 24vw;
+    right: 0vw;
+    top: 22.5vw;
+  }
+
+  .merch_img_1{
+    left: 30vw;
+    top: 10vw;
+    width: 45vw;
+  }
+
+  .merch_img_2{
+    left: 20vw;
+    top: 15vw;
+    width: 60vw;
+  }
+
+  .price_1{
+    left: 77vw;
+    top: 13vw;
+  }
+
+  .price_2{
+    left: 77vw;
+    top: 16vw;
+  }
 
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
+
+  body {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .img1 {
+    top: 0vw;
+    height: 75vw;
+    left: 28vw;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
