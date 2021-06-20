@@ -384,7 +384,7 @@ a {
 
 .hr_about_page{
   position: absolute;
-  border: 1px solid #FFFFFF;
+  border: 0.069vw solid #FFFFFF;
   width: 6.111vw;
   top: 4vw;
   margin-left: 2.7vw;
@@ -1019,7 +1019,7 @@ a {
   height: 0vw;
   left: 2.778vw;
   top: 13vw;
-  border: 1px solid #FFFFFF;
+  border: 0.069vw solid #FFFFFF;
 }
 
 .space_page_hr_2{
