@@ -592,32 +592,32 @@
     font-size: 3.418vw;
   }
 
-  .space_page_hr_1{
+  .space_page_hr1{
     top: 17.5vw;
     width: 24vw;
   }
 
-  .space_page_hr_2{
+  .space_page_hr2{
     top: 22.5vw;
     width: 24vw;
   }
 
-  .space_page_hr_3{
+  .space_page_hr3{
     top: 27.5vw;
     width: 24vw;
   }
 
-  .space_page_hr_4{
+  .space_page_hr4{
     top: 32.5vw;
     width: 24vw;
   }
 
-  .space_page_hr_5{
+  .space_page_hr5{
     top: 37.5vw;
     width: 24vw;
   }
 
-  .space_page_hr_6{
+  .space_page_hr6{
     top: 42.5vw;
     width: 24vw;
   }
@@ -661,6 +661,62 @@
     top: 25vw;
     left: 40vw;
   }
+
+  .merch_img{
+    z-index: -3;
+    left: 23vw;
+  }
+
+  .sch_2_txt{
+    font-size: 1.465vw;
+    left: 80vw;
+    /* top: 13vw; */
+  }
+
+  .sch_1_txt_1{
+    position: absolute;
+    font-family: 'Akzidenz-Grotesk Pro';
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 2.1vw;
+    line-height: 2.6vw;
+    top: 20vw;
+    left: 2.778vw;
+  }
+
+  .gal_img1{
+    left: 25vw;
+  }
+
+  .gal_img2{
+    top: 25vw;
+    left: 70vw;
+    width: 23vw;
+  }
+
+  .gal_img3{
+    top: 30vw;
+  }
+
+  .gal_img4{
+    left: 15vw;
+  }
+
+  .gal_img5{
+    left: 15vw;
+  }
+
+  .gal_text_about_11{
+    position: absolute;
+    left: 10vw;
+    top: 20vw;
+  }
+
+  .gal_text_name_2{
+  }
+
+
+
 
 
 
