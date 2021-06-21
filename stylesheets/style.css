@@ -893,6 +893,19 @@ a {
   top: 11vw;
 }
 
+.sch_2_txt_2 {
+  position: absolute;
+  font-family: 'Akzidenz-Grotesk Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 1.4vw;
+  text-align: left;
+  color: #FFFFFF;
+  left: 80vw;
+  top: 11vw;
+}
+
 .numbers_sch_1_1 {
   position: absolute;
   left: 80vw;
