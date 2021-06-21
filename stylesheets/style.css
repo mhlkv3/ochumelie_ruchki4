@@ -1526,3 +1526,7 @@ a {
 .cafe_images{
   z-index: 3;
 }
+
+.back_1_1{
+  display: none;
+}
