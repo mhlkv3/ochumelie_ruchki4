@@ -1409,6 +1409,73 @@
     height: 100vh;
   }
 
+  .back_1{
+    display: none;
+  }
+
+  .back_1_1{
+    position: absolute;
+    display: inherit;
+    width: 180%;
+    left: 0vw;
+    top: 0vw;
+  }
+
+  .schedule{
+    position: absolute;
+    top: 60vw;
+    left: 5vw;
+  }
+
+  .day_sch_text{
+    font-size: 5vw;
+    line-height: 5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+  }
+
+  .schedule_page_hr{
+    width: 86.667vw;
+    height: 0vw;
+    border: 0.267vw solid #FFFFFF;
+  }
+
+  .numbers_sch_1, .numbers_sch_2, .numbers_sch_3,
+  .numbers_sch_4, .numbers_sch_5, .numbers_sch_6,
+  .numbers_sch_7, .numbers_sch_8, .numbers_sch_9{
+    font-size: 5vw;
+  }
+
+  .numbers_sch_1{
+    margin-left: 14vw;
+  }
+  .numbers_sch_2{
+    margin-left: 35vw;
+  }
+  .numbers_sch_3{
+    margin-left: 16vw;
+  }
+  .numbers_sch_4{
+    margin-left: 14vw;
+  }
+  .numbers_sch_5{
+    margin-left: 35.5vw;
+  }
+  .numbers_sch_6{
+    margin-left: 28vw;
+  }
+  .numbers_sch_7{
+    margin-left: 30vw;
+  }
+  .numbers_sch_8{
+    margin-left: 32vw;
+  }
+  .numbers_sch_9{
+    margin-left: 31vw;
+  }
+
+
+
 
 
 
