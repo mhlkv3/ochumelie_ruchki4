@@ -968,6 +968,136 @@
     margin-left: 24vw;
   }
 
+  .sch_img11{
+    display: none;
+  }
+
+  .sch_img11_1{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -3;
+  }
+
+  .background_rec_2{
+    opacity: 0.5;
+  }
+
+  .sch_1_txt{
+    font-size: 4.557vw;
+    line-height: 5vw;
+    top: 30vw;
+  }
+
+  .sch_2_txt{
+    position: absolute;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
+    top: 30vw;
+    left: 58vw;
+  }
+
+  .numbers_sch_1_1{
+    position: absolute;
+    top: 60vw;
+    left: 58vw;
+    font-size: 4.557vw;
+    line-height: 5vw;
+  }
+
+  .gal_img1{
+    left: 0vw;
+    width: 100%;
+  }
+
+  .gal_img2{
+    width: 30vw;
+    left: 70vw;
+    top: 18vw;
+  }
+
+  .sch_1_txt_1{
+    font-size: 3.255vw:
+    line-height: 3vw;
+    top: 18vw;
+  }
+
+  .gal_img3{
+    width: 100vw;
+    top: 60vw;
+    left: 10vw;
+  }
+
+  .gal_img4{
+    width: 51.563vw;
+    height: 77.993vw;
+    left: 4.297vw;
+    top: 27.734vw;
+  }
+
+  .gal_img5{
+    width: 48.563vw;
+    height: 74.993vw;
+    left: 4.297vw;
+    top: 27.734vw;
+  }
+
+  .gal_text_name_1{
+    top: 0vw;
+    font-size: 3.255vw;
+    line-height: 3.255vw;
+    margin-left: 48vw;
+  }
+
+  .numbers_1{
+    font-size: 3.255vw;
+    line-height: 3.255vw;
+    margin-left: 48vw;
+  }
+
+  .gal_text_about_1{
+    font-size: 1.953vw;
+    line-height: 2.3vw;
+    margin-left: 48vw;
+  }
+
+  .gal_text_name_2{
+    /* top: 0vw; */
+    font-size: 3.255vw;
+    line-height: 3.255vw;
+    margin-left: 3vw;
+  }
+
+  .numbers_2{
+    font-size: 3.255vw;
+    line-height: 3.255vw;
+    margin-left: 3vw;
+  }
+
+  .gal_text_about_2{
+    font-size: 1.953vw;
+    line-height: 2.3vw;
+    margin-left: 3vw;
+  }
+
+  .img7{
+    left: 0vw;
+    width: 100%;
+  }
+
+  .img8{
+    display: none;
+  }
+
+  .about_text{
+    font-size: 1.953vw;
+    line-height: 2.3vw;
+  }
+
+
+
 
 
 
