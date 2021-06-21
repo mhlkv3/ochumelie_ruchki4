@@ -252,8 +252,8 @@
   body {
     position: absolute;
     overflow: hidden;
-    width: 1024px;
-    height: 768px;
+    width: 100vw;
+    height: 100vh;
   }
 
   .img1 {
@@ -757,8 +757,8 @@
   body{
     position: absolute;
     overflow: hidden;
-    width: 768px;
-    height: 1024px;
+    width: 100vw;
+    height: 100vh;
   }
 
   .menu_text{
