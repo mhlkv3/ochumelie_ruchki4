@@ -903,6 +903,78 @@
     line-height: 2.1vw;
   }
 
+  section{
+    height: 100vh;
+  }
+
+  .back_1{
+    display: none;
+  }
+
+  .back_1_1{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    z-index: -3;
+  }
+
+  .background_rec_2{
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .day_sch_text{
+    font-size: 4.557vw;
+    line-height: 5vw;
+  }
+
+  .schedule{
+    top: 30vw;
+  }
+
+  .schedule_page_hr{
+    width: 75vw;
+  }
+
+  .numbers_sch_1, .numbers_sch_2, .numbers_sch_3,
+  .numbers_sch_4, .numbers_sch_5, .numbers_sch_6,
+  .numbers_sch_7, .numbers_sch_8, .numbers_sch_9{
+    font-size: 4.557vw;
+  }
+
+  .numbers_sch_1{
+    margin-left: 10vw;
+  }
+  .numbers_sch_2{
+    margin-left: 29.5vw;
+  }
+  .numbers_sch_3{
+    margin-left: 12vw;
+  }
+  .numbers_sch_4{
+    margin-left: 10vw;
+  }
+  .numbers_sch_5{
+    margin-left: 29.5vw;
+  }
+  .numbers_sch_6{
+    margin-left: 22.5vw;
+  }
+  .numbers_sch_7{
+    margin-left: 23vw;
+  }
+  .numbers_sch_8{
+    margin-left: 24.5vw;
+  }
+  .numbers_sch_9{
+    margin-left: 24vw;
+  }
+
+
+
 
 
 
