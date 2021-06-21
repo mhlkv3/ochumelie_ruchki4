@@ -880,7 +880,7 @@
   }
 
   .schedule_page_text_2{
-    font-size: 13.021vw;
+    font-size: 12vw;
   }
 
   .menu_botton{
@@ -901,6 +901,7 @@
   .text_right{
     font-size: 1.953vw;
     line-height: 2.1vw;
+    bottom: 3vw;
   }
 
   section{
@@ -918,12 +919,6 @@
     top: 0;
     height: 100vh;
     z-index: -3;
-  }
-
-  .background_rec_2{
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
   }
 
   .day_sch_text{
