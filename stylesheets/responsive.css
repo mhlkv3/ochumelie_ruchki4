@@ -246,7 +246,7 @@
 
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* iPad */
 
   body {
@@ -861,6 +861,7 @@
 
   .sch_img1{
     left: 0vw;
+    width: 100%;
   }
 
   .sch_img2{
@@ -1019,8 +1020,8 @@
   }
 
   .sch_1_txt_1{
-    font-size: 3.255vw:
-    line-height: 3vw;
+    font-size: 3.255vw;
+    line-height: 3.5vw;
     top: 18vw;
   }
 
@@ -1096,36 +1097,251 @@
     line-height: 2.3vw;
   }
 
+  .space_img1{
+    left: 0vw;
+    width: 100%;
+  }
 
+  .space_img2, .space_img3{
+    display: none;
+  }
 
+  .floors_txt_1, .floors_txt_2, .floors_txt_3,
+  .floors_txt_4, .floors_txt_5{
+    font-size: 4.557vw;
+    line-height: 7.813vw;
+  }
 
+  .space_page_hr_1, .space_page_hr_2,
+  .space_page_hr_3, .space_page_hr_4{
+    width: 35vw;
+  }
 
+  .space_page_hr_1{
+    top: 20.5vw;
+  }
+  .space_page_hr_2{
+    top: 26.5vw;
+  }
+  .space_page_hr_3{
+    top: 32.5vw;
+  }
+  .space_page_hr_4{
+    top: 39vw;
+  }
 
+  .reception_img1{
+    display: none;
+  }
 
+  .reception_img2{
+    width: 48.307vw;
+    height: 36.328vw;
+    left: 51.302vw;
+    top: 75.651vw;
+  }
 
-}
+  .reception_img3{
+    width: 45.182vw;
+    height: 52.083vw;
+    left: 3.516vw;
+    top: 59.896vw;
+  }
 
+  .reception_img4{
+    width: 48.568vw;
+    height: 52.995vw;
+    left: 51.302vw;
+    top: 19.922vw;
+  }
 
+  .nav_img1{
+    left: 0vw;
+    width: 100%;
+  }
 
+  .floors_txt1, .floors_txt2, .floors_txt3,
+  .floors_txt4, .floors_txt5, .floors_txt6,
+  .floors_txt7{
+    font-size: 4.557vw;
+    line-height: 7.813vw;
+  }
 
+  .floors_txt1{
+    left: 3.516vw;
+    top: 18.229vw;
+  }
+  .floors_txt2{
+    left: 3.516vw;
+    top: 26.042vw;
+  }
+  .floors_txt3{
+    left: 3.516vw;
+    top: 33.854vw;
+  }
+  .floors_txt4{
+    left: 3.516vw;
+    top: 41.667vw;
+  }
+  .floors_txt5{
+    left: 3.516vw;
+    top: 49.479vw;
+  }
+  .floors_txt6{
+    left: 3.516vw;
+    top: 57.292vw;
+  }
+  .floors_txt7{
+    left: 3.516vw;
+    top: 65.104vw;
+  }
 
+  .space_page_hr1, .space_page_hr2, .space_page_hr3,
+  .space_page_hr4, .space_page_hr5, .space_page_hr6{
+    left: 3.516vw;
+    width: 35vw;
+  }
 
+  .space_page_hr1{
+    top: 25vw;
+  }
+  .space_page_hr2{
+    top: 32.5vw;
+  }
+  .space_page_hr3{
+    top: 40.5vw;
+  }
+  .space_page_hr4{
+    top: 48.5vw;
+  }
+  .space_page_hr5{
+    top: 56vw;
+  }
+  .space_page_hr6{
+    top: 64vw;
+  }
 
+  .schedule_page_text_3{
+    font-size: 11vw;
+  }
 
+  .nav_img_1{
+    width: 30vw;
+    top: 35vw;
+    left: 55vw;
+  }
+  .nav_img_2{
+    width: 30vw;
+    top: 30vw;
+    left: 55vw;
+  }
+  .nav_img_3{
+    width: 28vw;
+    top: 30vw;
+    left: 55vw;
+  }
+  .nav_img_4{
+    width: 28vw;
+    top: 30vw;
+    left: 55vw;
+  }
+  .nav_img_5{
+    width: 32vw;
+    top: 30vw;
+    left: 55vw;
+  }
+  .nav_img_6{
+    width: 32vw;
+    top: 30vw;
+    left: 55vw;
+  }
+  .nav_img_7{
+    width: 32vw;
+    top: 30vw;
+    left: 55vw;
+  }
 
+  .merch_img{
+    left: 0vw;
+    width: 100%;
+  }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  /* iPad Landscape */
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* iPhone */
+  .sch_2_txt_2{
+    font-size: 1.953vw;
+    line-height: 1.953vw;
+    top: 19vw;
+    left: 78vw;
+  }
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
+
+  body {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .img1{
+    height: 100vh;
+    width: 175%;
+    left: -20vw;
+    top: 0vw;
+  }
+
+  .img2, .img3, .img4, .img5, .img6{
+    display: none;
+  }
+
+  .menu_text{
+    font-size: 6.667vw;
+    line-height: 7vw;
+    margin-top: 5vw;
+    margin-bottom: 4vw;
+    margin-left: 4vw;
+  }
+
+  .main_page_hr{
+    width: 55vw;
+    left: 1vw;
+    border: 0.267vw solid #FFFFFF;
+  }
+
+  .main_page_text{
+    font-size: 13.333vw;
+    line-height: 92.5%;
+    top: 165.333vw;
+    left: 2vw;
+  }
+
+  .border_text{
+    display: none;
+  }
+
+  .text_right{
+    text-align: left;
+    left: 5vw;
+    top: 195vw;
+    font-size: 3.467vw;
+    line-height: 5vw;
+  }
+
+
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
-  /* iPhone Landscape */
+
+
+
+
+
+
+
+
+/* @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+} */
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
+} */
