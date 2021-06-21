@@ -249,12 +249,12 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
 
-  /* body {
+  body {
     position: absolute;
     overflow: hidden;
-    width: 100vw;
-    height: 75vw;
-  } */
+    width: 1024px;
+    height: 768px;
+  }
 
   .img1 {
     top: 0vw;
@@ -754,12 +754,12 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
 
-  /* body{
+  body{
     position: absolute;
     overflow: hidden;
-    width: 100vw;
-    height: 133.333vw;
-  } */
+    width: 768px;
+    height: 1024px;
+  }
 
   .menu_text{
     font-size: 4.557vw;
