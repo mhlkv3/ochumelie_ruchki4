@@ -1277,7 +1277,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
 
-  html {
+  body {
     position: absolute;
     overflow: hidden;
     width: 100vw;
@@ -1303,8 +1303,45 @@
     margin-left: 4vw;
   }
 
+  .ad_menu_1, .ad_menu_2, .ad_menu_3,
+  .ad_menu_4, .ad_menu_5, .ad_menu_6,
+  .ad_menu_7{
+    font-size: 4vw;
+  }
+
+  .ad_menu_1{
+    top: 6vw;
+    left: 60vw;
+  }
+  .ad_menu_2{
+    top: 10vw;
+    left: 60vw;
+  }
+  .ad_menu_3{
+    top: 68vw;
+    left: 60vw;
+  }
+  .ad_menu_4{
+    top: 72vw;
+    left: 60vw;
+  }
+  .ad_menu_5{
+    top: 76vw;
+    left: 60vw;
+  }
+
+  .ad_menu_6{
+    top: 85vw;
+    left: 60vw;
+  }
+  .ad_menu_7{
+    top: 89vw;
+    left: 60vw;
+  }
+
+
   .main_page_hr{
-    width: 55vw;
+    width: 50vw;
     left: 1vw;
     height: 0vw;
     border: 1px solid #FFFFFF;
@@ -1328,6 +1365,48 @@
     font-size: 3.467vw;
     line-height: 5vw;
   }
+
+  .sch_img1{
+    height: 100vh;
+    width: 175%;
+    left: -20vw;
+    top: 0vw;
+  }
+
+  .sch_img2, .sch_img3{
+    display: none;
+  }
+
+  .schedule_page_text, .schedule_page_text_2{
+    font-size: 13.333vw;
+    line-height: 92.5%;
+    bottom: 25vw;
+    left: 2vw;
+  }
+
+  .menu_botton{
+    left: 6.933vw;
+    top: 11.733vw;
+    font-size: 5.333vw;
+    line-height: 6.933vw;
+  }
+  .hr_about_page{
+    width: 16.533vw;
+    height: 0vw;
+    left: 4.5vw;
+    top: 17vw;
+    border: 0.267vw solid #FFFFFF;
+  }
+
+  .header_text{
+    font-size: 5.333vw;
+    line-height: 6.933vw;
+    right: 4.5vw;
+    top: 12.533vw;
+  }
+
+
+
 
 
 }
