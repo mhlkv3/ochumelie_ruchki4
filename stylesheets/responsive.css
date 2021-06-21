@@ -754,6 +754,13 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   /* iPad Portrait */
 
+  body{
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 133.333vw;
+  }
+
   .menu_text{
     font-size: 4.557vw;
     line-height: 5vw;
