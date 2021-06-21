@@ -251,7 +251,7 @@
 
   body {
     position: absolute;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 1024px;
     height: 768px;
   }
@@ -756,7 +756,7 @@
 
   body{
     position: absolute;
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 768px;
     height: 1024px;
   }
