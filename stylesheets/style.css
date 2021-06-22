@@ -1557,3 +1557,10 @@ a {
 .sch_img11_1{
   display: none;
 }
+
+.arrow{
+  position: absolute;
+  right: 720px;
+  bottom: 3vw;
+  opacity: 0.4;
+}
