@@ -1361,9 +1361,9 @@
   .text_right{
     text-align: left;
     left: 5vw;
-    top: 195vw;
+    top: 200vw;
     font-size: 3.467vw;
-    line-height: 5vw;
+    line-height: 4vw;
   }
 
   .sch_img1{
@@ -1473,6 +1473,127 @@
   .numbers_sch_9{
     margin-left: 31vw;
   }
+
+   .sch_1_txt{
+     left: 6.933vw;
+     top: 42.667vw;
+     font-size: 6.667vw;
+     line-height: 6.667vw;
+   }
+
+   .sch_2_txt{
+     font-size: 3.467vw;
+     line-height: 4vw;
+     left: 6.933vw;
+     top: 69.333vw;
+   }
+
+   .numbers_sch_1_1{
+     left: 6.933vw;
+     top: 110vw;
+     font-size: 4.800vw;
+     line-height: 5.600vw;
+   }
+
+   .background_rec_2{
+     opacity: 0.5;
+   }
+
+   .sch_img11{
+     display: none;
+   }
+
+   .sch_img11_1{
+     display: block;
+     position: absolute;
+     left: 0;
+     top: 0;
+     height: 100vh;
+     z-index: -3;
+   }
+
+   .gal_img1{
+     left: 0vw;
+     height: 100vh;
+   }
+
+   .gal_img2{
+     display: none;
+   }
+
+   .gal_img3{
+     width: 100vw;
+     top: 120vw;
+     left: 10vw;
+   }
+
+   .sch_1_txt_1{
+     position: absolute;
+     left: 6.933vw;
+     top: 42.667vw;
+     font-size: 5vw;
+     line-height: 5vw;
+   }
+
+   .gal_img4, .gal_img5{
+     position: absolute;
+     width: 86.7vw;
+     height: 131vw;
+     left: 6.5vw;
+     top: 21vw;
+   }
+
+   .gal_text_name_1{
+     position: absolute;
+     left: -52vw;
+     top: 133vw;
+     font-size: 5vw;
+     line-height: 6vw;
+   }
+   .gal_text_name_2{
+     position: absolute;
+     left: -9vw;
+     top: 133vw;
+     font-size: 5vw;
+     line-height: 6vw;
+   }
+
+   .numbers_1{
+     position: absolute;
+     left: -52vw;
+     top: 167vw;
+     font-size: 5vw;
+     line-height: 6vw;
+   }
+   .numbers_2{
+     position: absolute;
+     left: -9vw;
+     top: 167vw;
+     font-size: 5vw;
+     line-height: 6vw;
+   }
+
+   .gal_text_about_1{
+     position: absolute;
+     left: -52vw;
+     top: 175vw;
+     font-size: 3.5vw;
+     line-height: 4vw;
+   }
+   .gal_text_about_2{
+     position: absolute;
+     left: -9vw;
+     top: 175vw;
+     font-size: 3.5vw;
+     line-height: 4vw;
+   }
+
+
+
+
+
+
+
 
 
 
