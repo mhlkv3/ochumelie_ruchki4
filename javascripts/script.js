@@ -1,3 +1,8 @@
+
+
+
+
+
 /////ГЛАВНЫЙ ЭКРАН//////
 
 $(document).ready(function(){
@@ -146,6 +151,9 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$(".floors_txt11").click(function(){
+		$(".floors_txt11").click(function(){
+		$("body").css("height","2000px");
+	});
 		$(".merch_img").toggleClass("hidden");
 		$(".sch_2_txt").toggleClass("hidden");
 		$(".merch_1").toggleClass("hidden");
@@ -186,3 +194,7 @@ $(document).ready(function(){
 		$(".ad_menu_1.hidden,.ad_menu_2.hidden").toggleClass("hidden");
 	});
 	});
+
+	if(window.outerWidth < 425) {
+  alert('your jquery code here - it fires for mobile device only');
+}

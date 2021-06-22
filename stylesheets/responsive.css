@@ -1350,7 +1350,7 @@
   .main_page_text{
     font-size: 13.333vw;
     line-height: 92.5%;
-    top: 165.333vw;
+    top: 172vw;
     left: 2vw;
   }
 
@@ -1380,7 +1380,7 @@
   .schedule_page_text, .schedule_page_text_2{
     font-size: 13.333vw;
     line-height: 92.5%;
-    bottom: 25vw;
+    bottom: 21vw;
     left: 2vw;
   }
 
@@ -1586,6 +1586,97 @@
      top: 175vw;
      font-size: 3.5vw;
      line-height: 4vw;
+   }
+
+   .img7{
+     left: 0vw;
+     height: 100vh;
+   }
+
+   .img8{
+     display: none;
+   }
+
+   .about_text{
+     font-size: 4vw;
+     line-height: 4vw;
+     left: 6.933vw;
+     top: 80vw;
+   }
+
+   .space_images{
+     position: absolute;
+     overflow: hidden;
+     width: 100vw;
+     height: 100vh;
+   }
+
+
+   .space_img1{
+     left: -35vw;
+     height: 100vh;
+   }
+
+   .space_img2, .space_img3{
+     display: none;
+   }
+
+   .floors_txt_1, .floors_txt_2, .floors_txt_3,
+   .floors_txt_4, .floors_txt_5 {
+     font-size: 6.667vw;
+     line-height: 8vw;
+   }
+
+   .floors_txt_1{
+     left: 6.933vw;
+     top: 30vw;
+   }
+   .floors_txt_2{
+     left: 6.933vw;
+     top: 42vw;
+   }
+   .floors_txt_3{
+     left: 6.933vw;
+     top: 54vw;
+   }
+   .floors_txt_4{
+     left: 6.933vw;
+     top: 66vw;
+   }
+   .floors_txt_5{
+     left: 6.933vw;
+     top: 78vw;
+   }
+
+   .space_page_hr_1, .space_page_hr_2,
+   .space_page_hr_3, .space_page_hr_4{
+     width: 86.400vw;
+     height: 0vw;
+     border: 0.1vw solid #FFFFFF;
+   }
+
+   .space_page_hr_1{
+     left: 6.933vw;
+     top: 38vw;
+   }
+   .space_page_hr_2{
+     left: 6.933vw;
+     top: 49.5vw;
+   }
+   .space_page_hr_3{
+     left: 6.933vw;
+     top: 62vw;
+   }
+   .space_page_hr_4{
+     left: 6.933vw;
+     top: 74vw;
+   }
+
+   .reception_img1{
+     /* display: block; */
+     left: 6.933vw;
+     margin-top: 95vw;
+     width: 90%;
    }
 
 
