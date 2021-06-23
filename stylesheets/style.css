@@ -22,19 +22,19 @@ html {
   overflow: hidden;
 }
 
-.loader{
+/* .loader{
   height: 100vh;
   width: 100vw;
   position: absolute;
-  /* overflow: hidden; */
-}
+  overflow: hidden;
+} */
 
 .loader_img{
     transition: all 2s ease;
     top: 0;
     left: 0;
     position: absolute;
-    width: 100vw;
+    width: 130%;
     /* height: 100vh; */
     background: black;
     z-index: 4;
@@ -281,32 +281,32 @@ a {
 
 .menu_text:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .ad_menu_1:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .ad_menu_2:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .ad_menu_3:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .ad_menu_4:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .ad_menu_5:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .menu_botton:hover {
@@ -315,7 +315,7 @@ a {
 
 .header_text:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .ad_menu_1 {
@@ -781,6 +781,11 @@ a {
   z-index: 2;
 }
 
+.day_sch_text:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 .schedule_page_hr {
   display: block;
   border: 0.069vw solid #FFFFFF;
@@ -1040,17 +1045,17 @@ a {
 
 .floors_txt_1:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .ad_menu_6:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .ad_menu_7:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt_2 {
@@ -1067,7 +1072,7 @@ a {
 
 .floors_txt_2:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt_3 {
@@ -1084,7 +1089,7 @@ a {
 
 .floors_txt_3:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt_4 {
@@ -1101,7 +1106,7 @@ a {
 
 .floors_txt_4:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt_5 {
@@ -1142,7 +1147,7 @@ a {
 
 .floors_txt_5:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .space_page_hr_1{
@@ -1334,7 +1339,7 @@ a {
 
 .floors_txt1:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt2 {
@@ -1351,7 +1356,7 @@ a {
 
 .floors_txt2:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt3 {
@@ -1368,7 +1373,7 @@ a {
 
 .floors_txt3:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt4 {
@@ -1385,7 +1390,7 @@ a {
 
 .floors_txt4:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt5 {
@@ -1402,7 +1407,7 @@ a {
 
 .floors_txt5:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt6 {
@@ -1419,7 +1424,7 @@ a {
 
 .floors_txt6:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt7 {
@@ -1436,7 +1441,7 @@ a {
 
 .floors_txt7:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .nav_img_1{
@@ -1522,7 +1527,7 @@ a {
 }
 .floors_txt11:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt22 {
@@ -1539,7 +1544,7 @@ a {
 
 .floors_txt22:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt33 {
@@ -1556,7 +1561,7 @@ a {
 
 .floors_txt33:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .floors_txt44 {
@@ -1573,7 +1578,7 @@ a {
 
 .floors_txt44:hover {
   color: #FF00B8;
-  cursor: click;
+  cursor: pointer;
 }
 
 .merch_img_1{
