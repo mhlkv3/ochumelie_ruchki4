@@ -1,10 +1,10 @@
-// $(document).ready(function(){
-//   setTimeout(function(){
-//     $("#loader").css("opacity","0");
-//   }, 2500);
-//   setTimeout(function(){
-//     $("#loader").css("display","none");
-//   }, 3500);
+$(document).ready(function(){
+  setTimeout(function(){
+    $("#loader").css("opacity","0");
+  }, 2500);
+  setTimeout(function(){
+    $("#loader").css("display","none");
+  }, 3500);
 
 
 /////ГЛАВНЫЙ ЭКРАН//////
