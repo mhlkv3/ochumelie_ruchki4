@@ -8,7 +8,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 body {
   background-color: black;
   margin: 0 auto;
@@ -22,21 +21,19 @@ html {
   overflow: hidden;
 }
 
-/* .loader{
+.loader{
   height: 100vh;
   width: 100vw;
   position: absolute;
   overflow: hidden;
-} */
+}
 
 .loader_img{
     transition: all 2s ease;
     top: 0;
     left: 0;
     position: absolute;
-    width: 130%;
-    /* height: 100vh; */
-    background: black;
+    width: 100vw;
     z-index: 4;
   }
 
@@ -1287,6 +1284,10 @@ a {
   left: 36vw;
   top: -3vw;
   z-index: 2;
+  background-image: url("../images/res_img_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .reception_img2{
@@ -1294,6 +1295,10 @@ a {
   width: 40vw;
   left: 36vw;
   bottom: -2vw;
+  background-image: url("../images/res_img_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .reception_img3{
@@ -1301,6 +1306,10 @@ a {
   width: 23vw;
   right: 0vw;
   top: 5vw;
+  background-image: url("../images/res_img_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .reception_img4{
@@ -1308,6 +1317,10 @@ a {
   width: 23vw;
   right: 0vw;
   top: 20vw;
+  background-image: url("../images/res_img_4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 /* .reception_img1{
@@ -1590,15 +1603,23 @@ a {
 
 .merch_img_2{
   position: absolute;
-  left: 26vw;
-  top: 8vw;
+  margin-left: 23vw;
+  margin-top: 5vw;
   width: 50vw;
+}
+
+.merch_img_3{
+  position: absolute;
+  margin-left: 28vw;
+  margin-top: 15vw;
+  top: 0vw;
+  width: 150vw;
 }
 
 .merch_img_5{
   position: absolute;
   left: 26vw;
-  top: 3vw;
+  margin-top: 2vw;
   width: 50vw;
 }
 
