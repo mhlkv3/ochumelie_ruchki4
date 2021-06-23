@@ -16,11 +16,16 @@
   }
 
   .loader_img{
+      position: relative;
       bottom: 0vw;
       left: 0vw;
-      width: 150%;
+      width: 100%;
       z-index: 4;
     }
+
+    /* img{
+      width: 100vw;
+    } */
 
   .dot-flashing {
     left: 70vw;
@@ -101,20 +106,20 @@
     left: 30vw;
   }
 
-  .ad_menu_6, .ad_menu_7 {
-    left: 45vw;
+  /* .ad_menu_6, .ad_menu_7 {
+    left: 50vw;
     font-size: 2vw;
     line-height: 2vw;
-  }
+  } */
 
   .ad_menu_6{
     top: 26.5vw;
-    left: 30vw;
+    left: 48vw;
   }
 
   .ad_menu_7{
     top: 28.5vw;
-    left: 30vw;
+    left: 48vw;
   }
 
 
@@ -254,9 +259,17 @@
   }
 
   .merch_img_2{
-    left: 20vw;
-    top: 15vw;
+    margin-left: 25vw;
+    margin-top: 15vw;
     width: 60vw;
+  }
+
+  .merch_img_3{
+    position: absolute;
+    margin-left: 28vw;
+    margin-top: 15vw;
+    top: 0vw;
+    width: 150vw;
   }
 
   .price_1{
@@ -809,10 +822,9 @@
   }
 
   .loader_img{
-    top: 0vw;
-    left: 0vw;
-    width: 150vw;
-    z-index: 4;
+      top: 0;
+      left: 0;
+      width: 240vw;
     }
 
   .arrow{
@@ -1373,6 +1385,17 @@
     width: 100vw;
     height: 216.533vw;
   }
+
+  .loader_img{
+      transition: all 2s ease;
+      top: 0;
+      left: -30;
+      position: absolute;
+      width: 300vw;
+      /* height: 100vh; */
+      /* background: black; */
+      z-index: 4;
+    }
 
   .img1{
     height: 100vh;
