@@ -5,11 +5,10 @@ $(document).ready(function(){
   setTimeout(function(){
     $("#loader").css("display","none");
   }, 5500);
-});
+
 
 /////ГЛАВНЫЙ ЭКРАН//////
 
-$(document).ready(function(){
 	$(".menu_text.1").click(function(){
 		$(".ad_menu_1.hidden,.ad_menu_2.hidden").toggleClass("hidden");
 	});
@@ -21,8 +20,8 @@ $(document).ready(function(){
 	$(".ad_menu_4").click(function(){
 		$(".ad_menu_6.hidden,.ad_menu_7.hidden").toggleClass("hidden");
 	});
-});
 
+});
 
 
 /////ФОТО ПРОСТРАНСТВА//////
