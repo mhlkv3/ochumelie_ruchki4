@@ -115,26 +115,31 @@ $(document).ready(function(){
 			/////МЕРЧ//////
 
 				$(".floors_txt1").click(function(){
-					$(".merch_img, .sch_2_txt_2, .merch_1.hidden").toggleClass("hidden");
+					$(".merch_img, .merch_1.hidden, .price_1, .price_2").toggleClass("hidden");
+					$(".sch_2_txt_2").addClass("hidden");
 					$(".floors_txt2, .floors_txt3, .floors_txt4").toggleClass("grey_color_1");
 					$(".space_page_hr2, .space_page_hr3").toggleClass("grey_color");
 				});
 
 				$(".floors_txt2").click(function(){
-					$(".merch_img, .sch_2_txt_2, .merch_2.hidden").toggleClass("hidden");
-					$(".merch2").css("translate3d", "-300%");
+					$(".merch_img, .merch_2.hidden, .price_1, .price_2").toggleClass("hidden");
+					$(".sch_2_txt_2").addClass("hidden");
+					$(".merch2").css("translate3d", "-200%");
 					$(".floors_txt1, .floors_txt3, .floors_txt4").toggleClass("grey_color_1");
 					$(".space_page_hr1, .space_page_hr3").toggleClass("grey_color");
 				});
 
 				$(".floors_txt3").click(function(){
-					$(".merch_img, .sch_2_txt_2, .merch_3.hidden").toggleClass("hidden");
+					$(".merch_img, .sch_2_txt_2, .merch_3.hidden, .price_1, .price_2").toggleClass("hidden");
+					$(".sch_2_txt_2").addClass("hidden");
+					// $(".merch3").css("translate3d", "-300%");
 					$(".floors_txt2, .floors_txt1, .floors_txt4").toggleClass("grey_color_1");
 					$(".space_page_hr2, .space_page_hr1").toggleClass("grey_color");
 				});
 
 				$(".floors_txt4").click(function(){
-					$(".merch_img, .sch_2_txt_2, .merch_4.hidden").toggleClass("hidden");
+					$(".merch_img, .merch_4.hidden, .price_1, .price_2").toggleClass("hidden");
+					$(".sch_2_txt_2").addClass("hidden");
 					$(".floors_txt2, .floors_txt3, .floors_txt1").toggleClass("grey_color_1");
 					$(".space_page_hr2, .space_page_hr3, .space_page_hr1").toggleClass("grey_color");
 				});
