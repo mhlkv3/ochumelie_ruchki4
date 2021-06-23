@@ -27,8 +27,8 @@ html {
     top: 0;
     left: 0;
     position: fixed;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    /* height: 100vh; */
     background: black;
     z-index: 4;
   }
@@ -50,8 +50,8 @@ html {
   position: absolute;
   left: 70vw;
   top: 45vw;
-  width: 24px;
-  height: 24px;
+  width: 1.667vw;
+  height: 1.667vw;
   border-radius: 50%;
   background-color: white;
   color: white;
@@ -69,8 +69,8 @@ html {
 
 .dot-flashing::before {
   left: -3vw;
-  width: 24px;
-  height: 24px;
+  width: 1.667vw;
+  height: 1.667vw;
   border-radius: 50%;
   background-color: white;
   color: white;
@@ -80,8 +80,8 @@ html {
 
 .dot-flashing::after {
   left: 3vw;
-  width: 24px;
-  height: 24px;;
+  width: 1.667vw;
+  height: 1.667vw;;
   border-radius: 50%;
   background-color: white;
   color: white;
