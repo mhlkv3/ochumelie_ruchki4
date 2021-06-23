@@ -22,6 +22,84 @@ html {
   overflow: hidden;
 }
 
+.loader_img{
+    transition: all 2s ease;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    z-index: 4;
+  }
+
+  .loading_page_text{
+    position: absolute;
+    font-family: 'Pitcrew';
+    font-size: 9.722vw;
+    line-height: 96%;
+    color: #FFFFFF;
+    bottom: 1vw;
+    margin-left: 2.7vw;
+    font-weight: 400;
+    font-style: normal;
+    z-index: 4;
+  }
+
+  .dot-flashing {
+  position: absolute;
+  left: 70vw;
+  top: 45vw;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+  color: white;
+  animation: dotFlashing 1s infinite linear alternate;
+  animation-delay: .5s;
+  z-index: 4;
+}
+
+.dot-flashing::before, .dot-flashing::after {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
+.dot-flashing::before {
+  left: -3vw;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: white;
+  color: white;
+  animation: dotFlashing 1s infinite alternate;
+  animation-delay: 0s;
+}
+
+.dot-flashing::after {
+  left: 3vw;
+  width: 24px;
+  height: 24px;;
+  border-radius: 50%;
+  background-color: white;
+  color: white;
+  animation: dotFlashing 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes dotFlashing {
+  0% {
+    background-color: white;
+  }
+  50%,
+  100% {
+    background-color: black;
+  }
+}
+
+
 .container{
   display: block;
   margin: 0 auto;
