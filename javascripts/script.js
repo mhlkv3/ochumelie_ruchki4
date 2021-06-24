@@ -158,4 +158,5 @@ $(".floors_txt_5").click(function(){
 					$(".space_page_hr2, .space_page_hr3, .space_page_hr1").toggleClass("grey_color");
 				});
 
+
 });
