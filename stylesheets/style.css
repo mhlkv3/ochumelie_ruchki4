@@ -1278,16 +1278,19 @@ a {
   z-index: -3;
 }
 
+.reception_images.1, .cafe_images.1, .stitching_images.1
+.weaving_images.1, .knitting_images.1 {
+  display: none;
+}
+
 .reception_img1{
   position: absolute;
+  display: block;
   width: 40vw;
   left: 36vw;
   top: -3vw;
   z-index: 2;
-  background-image: url("../images/res_img_1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
 }
 
 .reception_img2{
@@ -1295,10 +1298,7 @@ a {
   width: 40vw;
   left: 36vw;
   bottom: -2vw;
-  background-image: url("../images/res_img_2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
 }
 
 .reception_img3{
@@ -1306,10 +1306,6 @@ a {
   width: 23vw;
   right: 0vw;
   top: 5vw;
-  background-image: url("../images/res_img_3.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 .reception_img4{
@@ -1317,10 +1313,6 @@ a {
   width: 23vw;
   right: 0vw;
   top: 20vw;
-  background-image: url("../images/res_img_4.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 
 /* .reception_img1{

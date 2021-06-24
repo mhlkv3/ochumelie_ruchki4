@@ -302,7 +302,7 @@
   .loader_img{
       bottom: 0vw;
       left: 0vw;
-      width: 100%;
+      width: 120vw;
       z-index: 4;
     }
 
@@ -809,10 +809,6 @@
     left: 20vw;
   }
 
-
-
-
-
   .sch_2_txt_2{
     top: 12vw;
     left: 82.5vw;
@@ -822,6 +818,7 @@
   .text_right{
     line-height: 1.6vw;
   }
+
 
 
 
@@ -1904,7 +1901,7 @@
    .reception_img1{
      left: 6.933vw;
      top: 95vw;
-     width: 90%;
+     width: 88%;
    }
 
    .reception_img2{
@@ -2088,8 +2085,8 @@
    }
    .merch_img_3{
      width: 110vw;
-     top: 90vw;
-     left: -35vw;
+     top: 100vw;
+     left: -25vw;
    }
    .merch_img_5{
      width: 110vw;
