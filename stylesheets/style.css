@@ -1610,10 +1610,10 @@ a {
 
 .merch_img_3{
   position: absolute;
-  margin-left: 28vw;
-  margin-top: 15vw;
-  top: 0vw;
-  width: 150vw;
+  margin-left: 15vw;
+  margin-top: 5vw;
+  /* top: 0vw; */
+  width: 60vw;
 }
 
 .merch_img_5{
