@@ -1,68 +1,41 @@
-$(".floors_txt_1").click(function () {
-     if ($(".space_images").hasClass("hidden")) {
-       $(".floors_txt_2, .floors_txt_3, .floors_txt_4, .floors_txt_5").addClass("grey_color");
-     	 $(".space_page_hr_2, .space_page_hr_3, .space_page_hr_4").addClass("grey_color_1");
-     }
-     $(this).toggleClass("grey_color");
-   });
+$(document).ready(function() {
+let url = "https://cdnjs.cloudflare.com/ajax/libs/onepage-scroll/1.3.1/jquery.onepage-scroll.min.js";
 
+if ($(window).width() > 414 && $(window).width() > 769) {
+  $.getScript( url, function() {
+    $(".fordesktop").onepage_scroll({
+      sectionContainer: ".fordesktop1",
+      easing: "ease",
 
+      animationTime: 1000,
+      pagination: true,
+      updateURL: false,
 
+     beforeMove: function(index) {},
+     afterMove: function(index) {},
+     loop: false,
+     keyboard: true,
+     responsiveFallback: false,
+     direction: "vertical"
+     });
+  });
+} else if ($(window).width() > 414 && $(window).width() < 769) {
+  $.getScript( url, function() {
+    $(".forwidth768").onepage_scroll({
+      sectionContainer: ".forwidth768_1",
+      easing: "ease",
 
-    $(".floors_txt_1").click(function(){
-    	$(".space_images").addClass("hidden");
-    	$(".reception_images").removeClass("hidden");
-    	$(".floors_txt_2, .floors_txt_3, .floors_txt_4, .floors_txt_5").addClass("grey_color");
-    	$(" .space_page_hr_2, .space_page_hr_3, .space_page_hr_4").addClass("grey_color_1");
-    });
+      animationTime: 1000,
+      pagination: true,
+      updateURL: false,
 
-
-
-
-
-
-
-
-
-$(".floors_txt_1").click(function(){
-	$(".space_images").addClass("hidden");
-	$(".reception_images").removeClass("hidden");
-	$(".floors_txt_2, .floors_txt_3, .floors_txt_4, .floors_txt_5").addClass("grey_color");
-	$(" .space_page_hr_2, .space_page_hr_3, .space_page_hr_4").addClass("grey_color_1");
+     beforeMove: function(index) {},
+     afterMove: function(index) {},
+     loop: false,
+     keyboard: true,
+     responsiveFallback: false,
+     direction: "vertical"
+     });
+  });
+}
 });
-
-		$(".floors_txt_1").click(function(){
-			$(".space_images").addClass("hidden");
-			$(".reception_images").toggleClass("hidden");
-			$(".floors_txt_2, .floors_txt_3, .floors_txt_4, .floors_txt_5").toggleClass("grey_color");
-			$(" .space_page_hr_2, .space_page_hr_3, .space_page_hr_4").toggleClass("grey_color_1");
-		});
-
-		$(".floors_txt_2").click(function(){
-			$(".space_images").addClass("hidden");
-			$(".cafe_images").toggleClass("hidden");
-			$(".reception_images, .stitching_images, .weaving_images, .knitting_images").addClass("hidden");
-			$(".floors_txt_1, .floors_txt_3, .floors_txt_4, .floors_txt_5").toggleClass("grey_color");
-			$(".space_page_hr_1, .space_page_hr_3, .space_page_hr_4").toggleClass("grey_color_1");
-		});
-
-		$(".floors_txt_3").click(function(){
-			$(".space_images").addClass("hidden");
-			$(".stitching_images").toggleClass("hidden");
-			$(".floors_txt_1, .floors_txt_2, .floors_txt_4, .floors_txt_5").toggleClass("grey_color");
-			$(".space_page_hr_1, .space_page_hr_2, .space_page_hr_4").toggleClass("grey_color_1");
-		});
-
-		$(".floors_txt_4").click(function(){
-			$(".space_images").addClass("hidden");
-			$(".weaving_images").toggleClass("hidden");
-			$(".floors_txt_1, .floors_txt_2, .floors_txt_3, .floors_txt_5").toggleClass("grey_color");
-			$(".space_page_hr_1, .space_page_hr_2, .space_page_hr_3").toggleClass("grey_color_1");
-		});
-
-		$(".floors_txt_5").click(function(){
-			$(".space_images").add("hidden");
-			$(".knitting_images").toggleClass("hidden");
-			$(".floors_txt_1, .floors_txt_2, .floors_txt_3, .floors_txt_4").toggleClass("grey_color");
-			$(".space_page_hr_1, .space_page_hr_2, .space_page_hr_3, .space_page_hr_4").toggleClass("grey_color_1");
-		});
