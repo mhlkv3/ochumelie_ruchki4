@@ -773,6 +773,44 @@
     top: 20vw;
   }
 
+  .merch_merch{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .price_1{
+    left: 77vw;
+  }
+  .price_2{
+    left: 77vw;
+    top: 15vw;
+  }
+
+
+
+  .merch_img_1{
+    top: 15vw;
+    left: 35vw;
+  }
+  .merch_img_2{
+    top: 15vw;
+    left: 5vw;
+  }
+  .merch_img_3{
+    width: 60vw;
+    top: 5vw;
+    left: -7vw;
+  }
+  .merch_img_5{
+    width: 60vw;
+    top: 10vw;
+    left: 20vw;
+  }
+
+
+
 
 
   .sch_2_txt_2{
@@ -815,6 +853,16 @@
     width: 100vw;
     height: 100vh;
   }
+
+  .space_space {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
+
+
+
 
   section{
     width: 100vw;
@@ -1362,11 +1410,55 @@
     left: 55vw;
   }
 
+  .merch_merch {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
+
   .merch_img{
     left: 0vw;
     width: 100%;
     opacity: 0.2;
   }
+
+  .price_1, .price_2{
+    font-size: 5vw;
+  }
+
+  .price_1{
+    font-size: 5vw;
+    left: 3.5vw;
+    top: 53vw;
+  }
+  .price_2{
+    font-size: 5vw;
+    left: 88vw;
+    top: 53vw;
+  }
+  .merch_img_1{
+    width: 50vw;
+    left: 26vw;
+    top: 64vw;
+  }
+  .merch_img_2{
+    width: 80vw;
+    left: -13vw;
+    top: 60vw;
+  }
+  .merch_img_3{
+    width: 85vw;
+    left: -20vw;
+    top: 45vw;
+  }
+  .merch_img_5{
+    width: 80vw;
+    left: 10vw;
+    top: 50vw;
+  }
+
+
 
   .sch_2_txt_2{
     font-size: 1.953vw;
@@ -1379,11 +1471,35 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   /* iPhone Portrait */
 
-  body {
+  body{
     position: absolute;
     overflow: hidden;
     width: 100vw;
     height: 216.533vw;
+  }
+
+  .onepage-wrapper,{
+    display: block;
+    position: static;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  html {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 216.533vw;
+  }
+
+  .merch_merch {
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
   }
 
   .loader_img{
@@ -1391,7 +1507,7 @@
       top: 0;
       left: -30;
       position: absolute;
-      width: 300vw;
+      width: 400vw;
       /* height: 100vh; */
       /* background: black; */
       z-index: 4;
@@ -1940,6 +2056,49 @@
      height: 100vh;
      position: absolute;
      overflow: hidden;
+   }
+
+   .merch_merch {
+     position: absolute;
+     overflow: hidden;
+     width: 100vw;
+     height: 100vh;
+   }
+
+   .price_1{
+     font-size: 5vw;
+     top: 80vw;
+     left: 7vw;
+   }
+   .price_2{
+     font-size: 5vw;
+     top: 80vw;
+     left: 83vw;
+   }
+
+   .merch_img_1{
+     width: 75vw;
+     top: 100vw;
+     left: 13vw;
+   }
+   .merch_img_2{
+     width: 75vw;
+     top: 100vw;
+     left: -10vw;
+   }
+   .merch_img_3{
+     width: 110vw;
+     top: 90vw;
+     left: -35vw;
+   }
+   .merch_img_5{
+     width: 110vw;
+     top: 90vw;
+     left: -5vw;
+   }
+
+   .merch_1_1{
+     display: none;
    }
 
 
